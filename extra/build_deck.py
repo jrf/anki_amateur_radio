@@ -66,6 +66,6 @@ if __name__ == "__main__":
     print('got list of decks: {}'.format(result))
 
     # parse text
-    fname = './extra_2016-2020.txt'
+    fname = './extra_2020-2024.txt'
     payload = parse_text(fname, deck_name)
     response = requests.post(url, data=json.dumps(payload)).json()
