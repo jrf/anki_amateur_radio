@@ -4,4 +4,4 @@
 
 - General class: Valid from 2019-07-01 until 2023-06-30
 
-- Extra class: Valid from 2016-07-01 until 2020-06-30
+- Extra class: Valid from 2020-07-01 until 2024-06-30
