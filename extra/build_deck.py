@@ -2,6 +2,7 @@ import sys
 import shutil
 import json
 import requests
+import re
 
 
 def request(action, **params):
@@ -23,6 +24,8 @@ def invoke(action, url, **params):
         raise Exception(response['error'])
     return response['result']
 
+def strip_html(text):
+    return re.sub('<[^<]+?>', '', text)
 
 def parse_text(f, deck_name):
     ret = {}
@@ -34,6 +37,7 @@ def parse_text(f, deck_name):
     remove = ['']
     text = [x for x in text if x not in remove]
     indices = [i for i, s in enumerate(text) if '~~' in s]
+    print(f"Found {len(indices)} separators in {f}.")
     for idx, _ in enumerate(indices):
         try:
             start = indices[idx]
@@ -54,18 +58,28 @@ def parse_text(f, deck_name):
             ret['params']['notes'].append(notes)
         except IndexError:
             continue
+    print(f"Generated {len(ret['params']['notes'])} notes from {f}.")
     return ret
 
 
 if __name__ == "__main__":
-    # create deck
     url = 'http://localhost:8765'
     deck_name = 'extra_class'
-    invoke('createDeck', url, deck=deck_name)
-    result = invoke('deckNames', url)
-    print('got list of decks: {}'.format(result))
 
-    # parse text
-    fname = './extra_2020-2024.txt'
+    invoke('createDeck', url, deck=deck_name)
+
+    # Parse text to get notes
+    fname = './extra_2024-2028.txt'
     payload = parse_text(fname, deck_name)
-    response = requests.post(url, data=json.dumps(payload)).json()
+
+    if payload['params']['notes']:
+        notes_to_add = payload['params']['notes']
+        print(f"Attempting to add {len(notes_to_add)} notes one by one.")
+        for note in notes_to_add:
+            try:
+                invoke('addNote', url, note=note)
+            except Exception as e:
+                print(f"Could not add note. Error: {e}")
+                print(f"Note content: {note}")
+    else:
+        print("No notes to add.")

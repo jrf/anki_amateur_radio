@@ -1,0 +1,1605 @@
+E1A01 (D) [97.305, 97.307(b)]
+Why is it not legal to transmit a 3 kHz bandwidth USB signal with a carrier frequency of 14.348 MHz?
+A. USB is not used on 20-meter phone
+B. The lower 1 kHz of the signal is outside the 20-meter band
+C. 14.348 MHz is outside the 20-meter band
+D. The upper 1 kHz of the signal is outside the 20-meter band
+~~
+E1A02 (D) [97.301, 97.305]
+When using a transceiver that displays the carrier frequency of phone signals, which of the following displayed frequencies represents the lowest frequency at which a properly adjusted LSB emission will be totally within the band?
+A. The exact lower band edge
+B. 300 Hz above the lower band edge
+C. 1 kHz above the lower band edge
+D. 3 kHz above the lower band edge
+~~
+E1A03 (C) [97.305, 97.307(b)]
+What is the highest legal carrier frequency on the 20-meter band for transmitting a 2.8 kHz wide USB data signal?
+A. 14.0708 MHz
+B. 14.1002 MHz
+C. 14.1472 MHz
+D. 14.3490 MHz
+~~
+E1A04 (C) [97.301, 97.305]
+May an Extra class operator answer the CQ of a station on 3.601 MHz LSB phone?
+A. Yes, the entire signal will be inside the SSB allocation for Extra class operators
+B. Yes, the displayed frequency is within the 75-meter phone band segment
+C. No, the sideband components will extend beyond the edge of the phone band segment
+D. No, US stations are not permitted to use phone emissions below 3.610 MHz
+~~
+E1A05 (C) [97.5]
+Who must be in physical control of the station apparatus of an amateur station aboard any vessel or craft that is documented or registered in the United States?
+A. Only a person with an FCC Marine Radio license grant
+B. Only a person named in an amateur station license grant
+C. Any person holding an FCC issued amateur license or who is authorized for alien reciprocal operation
+D. Any person named in an amateur station license grant or a person holding an unrestricted Radiotelephone Operator Permit
+~~
+E1A06 (B) [97.303(h)(1)]
+What is the required transmit frequency of a CW signal for channelized 60 meter operation?
+A. At the lowest frequency of the channel
+B. At the center frequency of the channel
+C. At the highest frequency of the channel
+D. On any frequency where the signal?s sidebands are within the channel
+~~
+E1A07 (C) [97.313(k)]
+What is the maximum power permitted on the 2200-meter band?
+A. 50 watts PEP (peak envelope power)
+B. 100 watts PEP (peak envelope power)
+C. 1 watt EIRP (equivalent isotropic radiated power)
+D. 5 watts EIRP (equivalent isotropic radiated power)
+~~
+E1A08 (B) [97.219]
+If a station in a message forwarding system inadvertently forwards a message that is in violation of FCC rules, who is primarily accountable for the rules violation?
+A. The control operator of the packet bulletin board station
+B. The control operator of the originating station
+C. The control operators of all the stations in the system
+D. The control operators of all the stations in the system not authenticating the source from which they accept communications
+~~
+E1A09 (D) [97.313(l)]
+Except in some parts of Alaska, what is the maximum power permitted on the 630-meter band?
+A. 50 watts PEP (peak envelope power)
+B. 100 watts PEP (peak envelope power)
+C. 1 watt EIRP (equivalent isotropic radiated power)
+D. 5 watts EIRP (equivalent isotropic radiated power)
+~~
+E1A10 (A) [97.11]
+If an amateur station is installed aboard a ship or aircraft, what condition must be met before the station is operated?
+A. Its operation must be approved by the master of the ship or the pilot in command of the aircraft
+B. The amateur station operator must agree not to transmit when the main radio of the ship or aircraft is in use
+C. The amateur station must have a power supply that is completely independent of the main ship or aircraft power supply
+D. The amateur station must operate only in specific segments of the amateur service HF and VHF bands
+~~
+E1A11 (B) [97.5]
+What licensing is required when operating an amateur station aboard a US-registered vessel in international waters?
+A. Any amateur license with an FCC Marine or Aircraft endorsement
+B. Any FCC-issued amateur license
+C. Only General class or higher amateur licenses
+D. An unrestricted Radiotelephone Operator Permit
+~~
+E1B Station restrictions and special operations: restrictions on station location; general operating restrictions; spurious emissions; antenna structure restrictions; RACES operations
+
+E1B01 (D) [97.3]
+Which of the following constitutes a spurious emission?
+A. An amateur station transmission made without the proper call sign identification
+B. A signal transmitted to prevent its detection by any station other than the intended recipient
+C. Any transmitted signal that unintentionally interferes with another licensed radio station and whose levels exceed 40 dB below the fundamental power level
+D. An emission outside the signal?s necessary bandwidth that can be reduced or eliminated without affecting the information transmitted
+~~
+E1B02 (A) [97.307(f)(2)]
+Which of the following is an acceptable bandwidth for digital voice or slow-scan TV transmissions made on the HF amateur bands?
+A. 3 kHz
+B. 10 kHz
+C. 15 kHz
+D. 20 kHz
+~~
+E1B03 (A) [97.13]
+Within what distance must an amateur station protect an FCC monitoring facility from harmful interference?
+A. 1 mile
+B. 3 miles
+C. 10 miles
+D. 30 miles
+~~
+E1B04 (C) [97.303(b)]
+What must the control operator of a repeater operating in the 70-centimeter band do if a radiolocation system experiences interference from that repeater?
+A. Reduce the repeater antenna HAAT (Height Above Average Terrain)
+B. File an FAA NOTAM (Notice to Air Missions) with the repeater system's ERP, call sign, and six-character grid locator
+C. Cease operation or make changes to the repeater that mitigate the interference
+D. All these choices are correct
+~~
+E1B05 (C) [97.3]
+What is the National Radio Quiet Zone?
+A. An area surrounding the FCC monitoring station in Laurel, Maryland
+B. An area in New Mexico surrounding the White Sands Test Area
+C. An area surrounding the National Radio Astronomy Observatory
+D. An area in Florida surrounding Cape Canaveral
+~~
+E1B06 (A) [97.15]
+Which of the following additional rules apply if you are erecting an amateur station antenna structure at a site at or near a public use airport?
+A. You may have to notify the Federal Aviation Administration and register it with the FCC as required by Part 17 of the FCC rules
+B. You may have to enter the height above ground in meters, and the latitude and longitude in degrees, minutes, and seconds on the FAA website
+C. You must file an Environmental Impact Statement with the EPA before construction begins
+D. You must obtain a construction permit from the airport zoning authority per Part 119 of the FAA regulations
+~~
+E1B07 (C) [97.15]
+To what type of regulations does PRB-1 apply?
+A. Homeowners associations
+B. FAA tower height limits
+C. State and local zoning
+D. Use of wireless devices in vehicles
+~~
+E1B08 (D) [97.121]
+What limitations may the FCC place on an amateur station if its signal causes interference to domestic broadcast reception, assuming that the receivers involved are of good engineering design?
+A. The amateur station must cease operation
+B. The amateur station must cease operation on all frequencies below 30 MHz
+C. The amateur station must cease operation on all frequencies above 30 MHz
+D. The amateur station must avoid transmitting during certain hours on frequencies that cause the interference
+~~
+E1B09 (C) [97.407]
+Which amateur stations may be operated under RACES rules?
+A. Only those club stations licensed to Amateur Extra class operators
+B. Any FCC-licensed amateur station except a Technician class
+C. Any FCC-licensed amateur station certified by the responsible civil defense organization for the area served
+D. Only stations meeting the FCC Part 97 technical standards for operation during an emergency
+~~
+E1B10 (A) [97.407]
+What frequencies are authorized to an amateur station operating under RACES rules?
+A. All amateur service frequencies authorized to the control operator
+B. Specific segments in the amateur service MF, HF, VHF, and UHF bands
+C. Specific local government channels
+D. All these choices are correct
+~~
+E1B11 (B) [97.15]
+What does PRB-1 require of state and local regulations affecting amateur radio antenna size and structures?
+A. No limitations may be placed on antenna size or placement
+B. Reasonable accommodations of amateur radio must be made
+C. Such structures must be permitted when use for emergency communications can be demonstrated
+D. Such structures must be permitted if certified by a registered professional engineer
+~~
+E1C Automatic and remote control; band-specific regulations; operating in and communicating with foreign countries; spurious emission standards; HF modulation index limit; band-specific rules
+
+E1C01 (D) [97.303]
+What is the maximum bandwidth for a data emission on 60 meters?
+A. 60 Hz
+B. 170 Hz
+C. 1.5 kHz
+D. 2.8 kHz
+~~
+E1C02 (C) [97.117]
+Which of the following apply to communications transmitted to amateur stations in foreign countries?
+A. Third party traffic must be limited to that intended for the exclusive use of government and non-Government Organization (NGOs) involved in emergency relief activities
+B. All transmissions must be in English
+C. Communications must be limited to those incidental to the purpose of the amateur service and remarks of a personal nature
+D. All these choices are correct
+~~
+E1C03 (B) [97.303(g)]
+How long must an operator wait after filing a notification with the Utilities Technology Council (UTC) before operating on the 2200-meter or 630-meter band?
+A. Operators must not operate until approval is received
+B. Operators may operate after 30 days, providing they have not been told that their station is within 1 kilometer of PLC systems using those frequencies
+C. Operators may not operate until a test signal has been transmitted in coordination with the local power company
+D. Operations may commence immediately, and may continue unless interference is reported by the UTC
+~~
+E1C04 (A)
+What is an IARP?
+A. A permit that allows US amateurs to operate in certain countries of the Americas
+B. The internal amateur radio practices policy of the FCC
+C. An indication of increased antenna reflected power
+D. A forecast of intermittent aurora radio propagation
+~~
+E1C05 (B) [97.221(c)(1), 97.115(c)]
+Under what situation may a station transmit third party communications while being automatically controlled?
+A. Never
+B. Only when transmitting RTTY or data emissions
+C. Only when transmitting SSB or CW
+D. On any mode approved by the National Telecommunication and Information Administration
+~~
+E1C06 (C)
+Which of the following is required in order to operate in accordance with CEPT rules in foreign countries where permitted?
+A. You must identify in the official language of the country in which you are operating
+B. The US embassy must approve of your operation
+C. You must have a copy of FCC Public Notice DA 16-1048
+D. You must append "/CEPT" to your call sign
+~~
+E1C07 (D) [97.303(g)]
+What notifications must be given before transmitting on the 630- or 2200-meter bands?
+A. A special endorsement must be requested from the FCC
+B. An environmental impact statement must be filed with the Department of the Interior
+C. Operators must inform the FAA of their intent to operate, giving their call sign and distance to the nearest runway
+D. Operators must inform the Utilities Technology Council (UTC) of their call sign and coordinates of the station
+~~
+E1C08 (B) [97.213]
+What is the maximum permissible duration of a remotely controlled station?s transmissions if its control link malfunctions?
+A. 30 seconds
+B. 3 minutes
+C. 5 minutes
+D. 10 minutes
+~~
+E1C09 (B) [97.307]
+What is the highest modulation index permitted at the highest modulation frequency for angle modulation below 29.0 MHz?
+A. 0.5
+B. 1.0
+C. 2.0
+D. 3.0
+~~
+E1C10 (A) [97.307]
+What is the maximum mean power level for a spurious emission below 30 MHz with respect to the fundamental emission?
+A. - 43 dB
+B. - 53 dB
+C. - 63 dB
+D. - 73 dB
+~~
+E1C11 (A) [97.5]
+Which of the following operating arrangements allows an FCC-licensed US citizen to operate in many European countries, and amateurs from many European countries to operate in the US?
+A. CEPT
+B. IARP
+C. ITU reciprocal license
+D. All these choices are correct
+~~
+E1C12 (D) [97.305(c)]
+In what portion of the 630-meter band are phone emissions permitted?
+A. None
+B. Only the top 3 kHz
+C. Only the bottom 3 kHz
+D. The entire band
+~~
+E1D Amateur Space and Earth stations; telemetry and telecommand rules; identification of balloon transmissions; one-way communications
+
+E1D01 (A) [97.3]
+What is the definition of telemetry?
+A. One-way transmission of measurements at a distance from the measuring instrument
+B. Two-way transmissions in excess of 1000 feet
+C. Two-way transmissions of data
+D. One-way transmission that initiates, modifies, or terminates the functions of a device at a distance
+~~
+E1D02 (B) [97.211(b)]
+Which of the following may transmit encrypted messages?
+A. Telecommand signals to terrestrial repeaters
+B. Telecommand signals from a space telecommand station
+C. Auxiliary relay links carrying repeater audio
+D. Mesh network backbone nodes
+~~
+E1D03 (B) [97.3(a)(45)]
+What is a space telecommand station?
+A. An amateur station located on the surface of the Earth for communication with other Earth stations by means of Earth satellites
+B. An amateur station that transmits communications to initiate, modify, or terminate functions of a space station
+C. An amateur station located in a satellite or a balloon more than 50 kilometers above the surface of the Earth
+D. An amateur station that receives telemetry from a satellite or balloon more than 50 kilometers above the surface of the Earth
+~~
+E1D04 (A) [97.119(a)]
+Which of the following is required in the identification transmissions from a balloon-borne telemetry station?
+A. Call sign
+B. The output power of the balloon transmitter
+C. The station's six-character Maidenhead grid locator
+D. All these choices are correct
+~~
+E1D05 (D) [97.213(d)]
+What must be posted at the location of a station being operated by telecommand on or within 50 kilometers of the Earth?s surface?
+A. A photocopy of the station license
+B. A label with the name, address, and telephone number of the station licensee
+C. A label with the name, address, and telephone number of the control operator
+D. All these choices are correct
+~~
+E1D06 (A) [97.215(c)]
+What is the maximum permitted transmitter output power when operating a model craft by telecommand?
+A. 1 watt
+B. 2 watts
+C. 5 watts
+D. 100 watts
+~~
+E1D07 (A) [97.207]
+Which of the following HF amateur bands include allocations for space stations?
+A. 40 meters, 20 meters, 15 meters, and 10 meters
+B. 30 meters, 17 meters, and 10 meters
+C. Only 10 meters
+D. Satellite operation is permitted on all HF bands
+~~
+E1D08 (D) [97.207]
+Which VHF amateur bands have frequencies authorized for space stations?
+A. 6 meters and 2 meters
+B. 6 meters, 2 meters, and 1.25 meters
+C. 2 meters and 1.25 meters
+D. 2 meters
+~~
+E1D09 (B) [97.207]
+Which UHF amateur bands have frequencies authorized for space stations?
+A. 70 centimeters only
+B. 70 centimeters and 13 centimeters
+C. 70 centimeters and 33 centimeters
+D. 33 centimeters and 13 centimeters
+~~
+E1D10 (B) [97.211]
+Which amateur stations are eligible to be telecommand stations of space stations, subject to the privileges of the class of operator license held by the control operator of the station?
+A. Any amateur station approved by AMSAT
+B. Any amateur station so designated by the space station licensee
+C. Any amateur station so designated by the ITU
+D. All these choices are correct
+~~
+E1D11 (D) [97.209]
+Which amateur stations are eligible to operate as Earth stations?
+A. Any amateur licensee who has successfully completed the AMSAT space communications course
+B. Only those of General, Advanced or Amateur Extra class operators
+C. Only those of Amateur Extra class operators
+D. Any amateur station, subject to the privileges of the class of operator license held by the control operator
+~~
+E1D12 (A) [97.207(e), 97.203(g)]
+Which of the following amateur stations may transmit one-way communications?
+A. A space station, beacon station, or telecommand station
+B. A local repeater or linked repeater station
+C. A message forwarding station or automatically controlled digital station
+D. All these choices are correct
+~~
+E1E Volunteer examiner program: definitions; qualifications; preparation and administration of exams; reimbursement; accreditation; question pools; documentation requirements
+
+E1E01 (A) [97.527]
+For which types of out-of-pocket expenses do the Part 97 rules state that VEs and VECs may be reimbursed?
+A. Preparing, processing, administering, and coordinating an examination for an amateur radio operator license
+B. Teaching an amateur operator license examination preparation course
+C. No expenses are authorized for reimbursement
+D. Providing amateur operator license examination preparation training materials
+~~
+E1E02 (C) [97.523]
+Who is tasked by Part 97 with maintaining the pools of questions for all US amateur license examinations?
+A. The VEs
+B. The FCC
+C. The VECs
+D. The ARRL
+~~
+E1E03 (C) [97.521]
+What is a Volunteer Examiner Coordinator?
+A. A person who has volunteered to administer amateur operator license examinations
+B. An organization paid by the volunteer examiner team to publicize and schedule examinations
+C. An organization that has entered into an agreement with the FCC to coordinate, prepare, and administer amateur operator license examinations
+D. The person who has entered into an agreement with the FCC to be the VE session manager
+~~
+E1E04 (D) [97.509, 97.525]
+What is required to be accredited as a Volunteer Examiner?
+A. Each General, Advanced and Amateur Extra class operator is automatically accredited as a VE when the license is granted
+B. The amateur operator applying must pass a VE examination administered by the FCC Enforcement Bureau
+C. The prospective VE must obtain accreditation from the FCC
+D. A VEC must confirm that the VE applicant meets FCC requirements to serve as an examiner
+~~
+E1E05 (B) [97.509(j)]
+What must the VE team do with the application form if the examinee does not pass the exam?
+A. Maintain the application form with the VEC?s records
+B. Return the application document to the examinee
+C. Send the application form to the FCC and inform the FCC of the grade
+D. Destroy the application form
+~~
+E1E06 (C) [97.509]
+Who is responsible for the proper conduct and necessary supervision during an amateur operator license examination session?
+A. The VEC coordinating the session
+B. The designated monitoring VE
+C. Each administering VE
+D. Only the VE session manager
+~~
+E1E07 (B) [97.509, 97.511]
+What should a VE do if a candidate fails to comply with the examiner?s instructions during an amateur operator license examination?
+A. Warn the candidate that continued failure to comply will result in termination of the examination
+B. Immediately terminate the candidate?s examination
+C. Allow the candidate to complete the examination, but invalidate the results
+D. Immediately terminate everyone?s examination and close the session
+~~
+E1E08 (C) [97.509]
+To which of the following examinees may a VE not administer an examination?
+A. Employees of the VE
+B. Friends of the VE
+C. Relatives of the VE as listed in the FCC rules
+D. All these choices are correct
+~~
+E1E09 (A) [97.509]
+What may be the penalty for a VE who fraudulently administers or certifies an examination?
+A. Revocation of the VE?s amateur station license grant and the suspension of the VE?s amateur operator license grant
+B. A fine of up to $1,000 per occurrence
+C. A sentence of up to one year in prison
+D. All these choices are correct
+~~
+E1E10 (C) [97.509(m)]
+What must the administering VEs do after the administration of a successful examination for an amateur operator license?
+A. They must collect and send the documents directly to the FCC
+B. They must collect and submit the documents to the coordinating VEC for grading
+C. They must submit the application document to the coordinating VEC according to the coordinating VEC instructions
+D. They must return the documents to the applicant for submission to the FCC according to the FCC instructions
+~~
+E1E11 (B) [97.509(i)]
+What must the VE team do if an examinee scores a passing grade on all examination elements needed for an upgrade or new license?
+A. Photocopy all examination documents and forward them to the FCC for processing
+B. Three VEs must certify that the examinee is qualified for the license grant and that they have complied with the administering VE requirements
+C. Issue the examinee the new or upgrade license
+D. All these choices are correct
+~~
+E1F Miscellaneous rules: external RF power amplifiers; prohibited communications; spread spectrum; auxiliary stations; Canadian amateurs operating in the US; special temporary authority
+
+E1F01 (B) [97.305]
+On what frequencies are spread spectrum transmissions permitted?
+A. Only on amateur frequencies above 50 MHz
+B. Only on amateur frequencies above 222 MHz
+C. Only on amateur frequencies above 420 MHz
+D. Only on amateur frequencies above 144 MHz
+~~
+E1F02 (C) [97.107]
+What privileges are authorized in the US to persons holding an amateur service license granted by the government of Canada?
+A. None, they must obtain a US license
+B. Full privileges of the General class license on the 80-, 40-, 20-, 15-, and 10-meter bands
+C. The operating terms and conditions of the Canadian amateur service license, not to exceed US Amateur Extra class license privileges
+D. Full privileges, up to and including those of the Amateur Extra class license, on the 80-, 40-, 20-, 15-, and 10-meter bands
+~~
+E1F03 (D) [97.315]
+Under what circumstances may a dealer sell an external RF power amplifier capable of operation below 144 MHz if it has not been granted FCC certification?
+A. Gain is less than 23 dB when driven by power of 10 watts or less
+B. The equipment dealer assembled it from a kit
+C. It was manufactured and certificated in a country which has a reciprocal certification agreement with the FCC
+D. The amplifier is constructed or modified by an amateur radio operator for use at an amateur station
+~~
+E1F04 (A) [97.3]
+Which of the following geographic descriptions approximately describes "Line A"?
+A. A line roughly parallel to and south of the border between the US and Canada
+B. A line roughly parallel to and west of the US Atlantic coastline
+C. A line roughly parallel to and north of the border between the US and Mexico
+D. A line roughly parallel to and east of the US Pacific coastline
+~~
+E1F05 (D) [97.303]
+Amateur stations may not transmit in which of the following frequency segments if they are located in the contiguous 48 states and north of Line A?
+A. 440 MHz - 450 MHz
+B. 53 MHz - 54 MHz
+C. 222 MHz - 223 MHz
+D. 420 MHz - 430 MHz
+~~
+E1F06 (A) [1.931]
+Under what circumstances might the FCC issue a Special Temporary Authority (STA) to an amateur station?
+A. To provide for experimental amateur communications
+B. To allow use of a special event call sign
+C. To allow a VE group with less than three VEs to administer examinations in a remote, sparsely populated area
+D. To allow a licensee who has passed an upgrade exam to operate with upgraded privileges while waiting for posting on the FCC database
+~~
+E1F07 (D) [97.113]
+When may an amateur station send a message to a business?
+A. When the pecuniary interest of the amateur or his or her employer is less than $25
+B. When the pecuniary interest of the amateur or his or her employer is less than $50
+C. At no time
+D. When neither the amateur nor their employer has a pecuniary interest in the communications
+~~
+E1F08 (A) [97.113(c)]
+Which of the following types of amateur station communications are prohibited?
+A. Communications transmitted for hire or material compensation, except as otherwise provided in the rules
+B. Communications that have political content, except as allowed by the Fairness Doctrine
+C. Communications that have religious content
+D. Communications in a language other than English
+~~
+E1F09 (C) [FCC Part 97.113(a)(4)]
+Which of the following cannot be transmitted over an amateur radio mesh network?
+A. Third party traffic
+B. Email
+C. Messages encoded to obscure their meaning
+D. All these choices are correct
+~~
+E1F10 (B) [97.201]
+Who may be the control operator of an auxiliary station?
+A. Any licensed amateur operator
+B. Only Technician, General, Advanced, or Amateur Extra class operators
+C. Only General, Advanced, or Amateur Extra class operators
+D. Only Amateur Extra class operators
+~~
+E1F11 (D) [97.317]
+Which of the following best describes one of the standards that must be met by an external RF power amplifier if it is to qualify for a grant of FCC certification?
+A. It must produce full legal output when driven by not more than 5 watts of mean RF input power
+B. It must have received an Underwriters Laboratory certification for electrical safety as well as having met IEEE standard 14.101(B)
+C. It must exhibit a gain of less than 23 dB when driven by 10 watts or less
+D. It must satisfy the FCC?s spurious emission standards when operated at the lesser of 1500 watts or its full output power
+~~
+SUBELEMENT E2 - OPERATING PROCEDURES [5 Exam Questions - 5 Groups]
+
+E2A Amateur radio in space: amateur satellites; orbital mechanics; frequencies and modes; satellite hardware; satellite operations
+
+E2A01 (C)
+What is the direction of an ascending pass for an amateur satellite?
+A. From west to east
+B. From east to west
+C. From south to north
+D. From north to south
+~~
+E2A02 (D)
+Which of the following is characteristic of an inverting linear transponder?
+A. Doppler shift is reduced because the uplink and downlink shifts are in opposite directions
+B. Signal position in the band is reversed
+C. Upper sideband on the uplink becomes lower sideband on the downlink, and vice versa
+D. All these choices are correct
+~~
+E2A03 (D)
+How is an upload signal processed by an inverting linear transponder?
+A. The signal is detected and remodulated on the reverse sideband
+B. The signal is passed through a nonlinear filter
+C. The signal is reduced to I and Q components, and the Q component is filtered out
+D. The signal is mixed with a local oscillator signal and the difference product is transmitted
+~~
+E2A04 (B)
+What is meant by the ?mode? of an amateur radio satellite?
+A. Whether the satellite is in a low earth or geostationary orbit
+B. The satellite?s uplink and downlink frequency bands
+C. The satellite?s orientation with respect to the Earth
+D. Whether the satellite is in a polar or equatorial orbit
+~~
+E2A05 (D)
+What do the letters in a satellite?s mode designator specify?
+A. Power limits for uplink and downlink transmissions
+B. The location of the ground control station
+C. The polarization of uplink and downlink signals
+D. The uplink and downlink frequency ranges
+~~
+E2A06 (A)
+What are Keplerian elements?
+A. Parameters that define the orbit of a satellite
+B. Phase reversing elements in a Yagi antenna
+C. High-emission heater filaments used in magnetron tubes
+D. Encrypting codes used for spread spectrum modulation
+~~
+E2A07 (D)
+Which of the following types of signals can be relayed through a linear transponder?
+A. FM and CW
+B. SSB and SSTV
+C. PSK and packet
+D. All these choices are correct
+~~
+E2A08 (B)
+Why should effective radiated power (ERP) be limited to a satellite that uses a linear transponder?
+A. To prevent creating errors in the satellite telemetry
+B. To avoid reducing the downlink power to all other users
+C. To prevent the satellite from emitting out-of-band signals
+D. To avoid interfering with terrestrial QSOs
+~~
+E2A09 (A)
+What do the terms ?L band? and ?S band? specify?
+A. The 23- and 13-centimeter bands
+B. The 2-meter and 70-centimeter bands
+C. FM and digital store-and-forward systems
+D. Which sideband to use
+~~
+E2A10 (B)
+What type of satellite appears to stay in one position in the sky?
+A. HEO
+B. Geostationary
+C. Geomagnetic
+D. LEO
+~~
+E2A11 (B)
+What type of antenna can be used to minimize the effects of spin modulation and Faraday rotation?
+A. A linearly polarized antenna
+B. A circularly polarized antenna
+C. An isotropic antenna
+D. A log-periodic dipole array
+~~
+E2A12 (C)
+What is the purpose of digital store-and-forward functions on an amateur radio satellite?
+A. To upload operational software for the transponder
+B. To delay download of telemetry between satellites
+C. To hold digital messages in the satellite for later download
+D. To relay messages between satellites
+~~
+E2A13 Question Deleted (section not renumbered)
+~~
+E2B Television practices: fast-scan television standards and techniques; slow scan television standards and techniques
+
+E2B01 (A)
+In digital television, what does a coding rate of 3/4 mean?
+A. 25% of the data sent is forward error correction data
+B. Data compression reduces data rate by 3/4
+C. 1/4 of the time interval is used as a guard interval
+D. Three, four-bit words are used to transmit each pixel
+~~
+E2B02 (C)
+How many horizontal lines make up a fast-scan (NTSC) television frame?
+A. 30
+B. 60
+C. 525
+D. 1080
+~~
+E2B03 (D)
+How is an interlaced scanning pattern generated in a fast-scan (NTSC) television system?
+A. By scanning two fields simultaneously
+B. By scanning each field from bottom-to-top
+C. By scanning lines from left-to-right in one field and right-to-left in the next
+D. By scanning odd-numbered lines in one field and even-numbered lines in the next
+~~
+E2B04 (A)
+How is color information sent in analog SSTV?
+A. Color lines are sent sequentially
+B. Color information is sent on a 2.8 kHz subcarrier
+C. Color is sent in a color burst at the end of each line
+D. Color is amplitude modulated on the frequency modulated intensity signal
+~~
+E2B05 (C)
+Which of the following describes the use of vestigial sideband in analog fast-scan TV transmissions?
+A. The vestigial sideband carries the audio information
+B. The vestigial sideband contains chroma information
+C. Vestigial sideband reduces the bandwidth while increasing the fidelity of low frequency video components
+D. Vestigial sideband provides high frequency emphasis to sharpen the picture
+~~
+E2B06 (A)
+What is vestigial sideband modulation?
+A. Amplitude modulation in which one complete sideband and a portion of the other are transmitted
+B. A type of modulation in which one sideband is inverted
+C. Narrow-band FM modulation achieved by filtering one sideband from the audio before frequency modulating the carrier
+D. Spread spectrum modulation achieved by applying FM modulation following single sideband amplitude modulation
+~~
+E2B07 (B)
+Which types of modulation are used for amateur television DVB-T signals?
+A. FM and FSK
+B. QAM and QPSK
+C. AM and OOK
+D. All these choices are correct
+~~
+E2B08 (A)
+What technique allows commercial analog TV receivers to be used for fast-scan TV operations on the 70-centimeter band?
+A. Transmitting on channels shared with cable TV
+B. Using converted satellite TV dishes
+C. Transmitting on the abandoned TV channel 2
+D. Using USB and demodulating the signal with a computer sound card
+~~
+E2B09 (D)
+What kind of receiver can be used to receive and decode SSTV using the Digital Radio Mondiale (DRM) protocol?
+A. CDMA
+B. AREDN
+C. AM
+D. SSB
+~~
+E2B10 (A)
+What aspect of an analog slow-scan television signal encodes the brightness of the picture?
+A. Tone frequency
+B. Tone amplitude
+C. Sync amplitude
+D. Sync frequency
+~~
+E2B11 (B)
+What is the function of the vertical interval signaling (VIS) code sent as part of an SSTV transmission?
+A. To lock the color burst oscillator in color SSTV images
+B. To identify the SSTV mode being used
+C. To provide vertical synchronization
+D. To identify the call sign of the station transmitting
+~~
+E2B12 (A)
+What signals SSTV receiving software to begin a new picture line?
+A. Specific tone frequencies
+B. Elapsed time
+C. Specific tone amplitudes
+D. A two-tone signal
+~~
+E2C Contest and DX operating; remote operation techniques; log data format; contact confirmation; RF network systems
+
+E2C01 (D)
+What indicator is required to be used by US-licensed operators when operating a station via remote control and the remote transmitter is located in the US?
+A. / followed by the USPS two-letter abbreviation for the state in which the remote station is located
+B. /R# where # is the district of the remote station
+C. / followed by the ARRL Section of the remote station
+D. No additional indicator is required
+~~
+E2C02 (C)
+Which of the following file formats is used for exchanging amateur radio log data?
+A. NEC
+B. ARLD
+C. ADIF
+D. OCF
+~~
+E2C03 (A)
+From which of the following bands is amateur radio contesting generally excluded?
+A. 30 meters
+B. 6 meters
+C. 70 centimeters
+D. 33 centimeters
+~~
+E2C04 (B)
+Which of the following frequencies can be used for amateur radio mesh networks?
+A. HF frequencies where digital communications are permitted
+B. Frequencies shared with various unlicensed wireless data services
+C. Cable TV channels 41-43
+D. The 60-meter band channel centered on 5373 kHz
+~~
+E2C05 (B)
+What is the function of a DX QSL Manager?
+A. Allocate frequencies for DXpeditions
+B. Handle the receiving and sending of confirmations for a DX station
+C. Run a net to allow many stations to contact a rare DX station
+D. Communicate to a DXpedition about propagation, band openings, pileup conditions, etc.
+~~
+E2C06 (C)
+During a VHF/UHF contest, in which band segment would you expect to find the highest level of SSB or CW activity?
+A. At the top of each band, usually in a segment reserved for contests
+B. In the middle of each band, usually on the national calling frequency
+C. In the weak signal segment of the band, with most of the activity near the calling frequency
+D. In the middle of the band, usually 25 kHz above the national calling frequency
+~~
+E2C07 (A)
+What is the Cabrillo format?
+A. A standard for submission of electronic contest logs
+B. A method of exchanging information during a contest QSO
+C. The most common set of contest rules
+D. A digital protocol specifically designed for rapid contest exchanges
+~~
+E2C08 (D)
+Which of the following contacts may be confirmed through the Logbook of The World (LoTW)?
+A. Special event contacts between stations in the US
+B. Contacts between a US station and a non-US station
+C. Contacts for Worked All States credit
+D. All these choices are correct
+~~
+E2C09 (C)
+What type of equipment is commonly used to implement an amateur radio mesh network?
+A. A 2-meter VHF transceiver with a 1,200-baud modem
+B. A computer running EchoLink to provide interface from the radio to the internet
+C. A wireless router running custom firmware
+D. A 440 MHz transceiver with a 9,600-baud modem
+~~
+E2C10 (D)
+Why do DX stations often transmit and receive on different frequencies?
+A. Because the DX station may be transmitting on a frequency that is prohibited to some responding stations
+B. To separate the calling stations from the DX station
+C. To improve operating efficiency by reducing interference
+D. All these choices are correct
+~~
+E2C11 (A)
+How should you generally identify your station when attempting to contact a DX station during a contest or in a pileup?
+A. Send your full call sign once or twice
+B. Send only the last two letters of your call sign until you make contact
+C. Send your full call sign and grid square
+D. Send the call sign of the DX station three times, the words ?this is,? then your call sign three times
+~~
+E2C12 (C)
+What indicates the delay between a control operator action and the corresponding change in the transmitted signal?
+A. Jitter
+B. Hang time
+C. Latency
+D. Anti-VOX
+~~
+E2D Operating methods: digital modes and procedures for VHF and UHF; APRS; EME procedures; meteor scatter procedures
+
+E2D01 (B)
+Which of the following digital modes is designed for meteor scatter communications?
+A. WSPR
+B. MSK144
+C. Hellschreiber
+D. APRS
+~~
+E2D02 (D)
+What information replaces signal-to-noise ratio when using the FT8 or FT4 modes in a VHF contest?
+A. RST report
+B. State abbreviation
+C. Serial number
+D. Grid square
+~~
+E2D03 (D)
+Which of the following digital modes is designed for EME communications?
+A. MSK144
+B. PACTOR III
+C. WSPR
+D. Q65
+~~
+E2D04 (C)
+What technology is used for real-time tracking of balloons carrying amateur radio transmitters?
+A. FT8
+B. Bandwidth compressed LORAN
+C. APRS
+D. PACTOR III
+~~
+E2D05 (B)
+What is the characteristic of the JT65 mode?
+A. Uses only a 65 Hz bandwidth
+B. Decodes signals with a very low signal-to-noise ratio
+C. Symbol rate is 65 baud
+D. Permits fast-scan TV transmissions over narrow bandwidth
+~~
+E2D06 (A)
+Which of the following is a method for establishing EME contacts?
+A. Time-synchronous transmissions alternating between stations
+B. Storing and forwarding digital messages
+C. Judging optimum transmission times by monitoring beacons reflected from the moon
+D. High-speed CW identification to avoid fading
+~~
+E2D07 (C)
+What digital protocol is used by APRS?
+A. PACTOR
+B. QAM
+C. AX.25
+D. AMTOR
+~~
+E2D08 (C)
+What type of packet frame is used to transmit APRS beacon data?
+A. Acknowledgement
+B. Burst
+C. Unnumbered Information
+D. Connect
+~~
+E2D09 (A)
+What type of modulation is used by JT65?
+A. Multitone AFSK
+B. PSK
+C. RTTY
+D. QAM
+~~
+E2D10 (C)
+What does the packet path WIDE3-1 designate?
+A. Three stations are allowed on frequency, one transmitting at a time
+B. Three subcarriers are permitted, subcarrier one is being used
+C. Three digipeater hops are requested with one remaining
+D. Three internet gateway stations may receive one transmission
+~~
+E2D11 (D)
+How do APRS stations relay data?
+A. By packet ACK/NAK relay
+B. By C4FM repeaters
+C. By DMR repeaters
+D. By packet digipeaters
+~~
+E2E Operating methods: digital modes and procedures for HF
+
+E2E01 (B)
+Which of the following types of modulation is used for data emissions below 30 MHz?
+A. DTMF tones modulating an FM signal
+B. FSK
+C. Pulse modulation
+D. Spread spectrum
+~~
+E2E02 (B)
+Which of the following synchronizes WSJT-X digital mode transmit/receive timing?
+A. Alignment of frequency shifts
+B. Synchronization of computer clocks
+C. Sync-field transmission
+D. Sync-pulse timing
+~~
+E2E03 (B)
+To what does the "4" in FT4 refer?
+A. Multiples of 4 bits of user information
+B. Four-tone continuous-phase frequency shift keying
+C. Four transmit/receive cycles per minute
+D. All these choices are correct
+~~
+E2E04 (D)
+Which of the following is characteristic of the FST4 mode?
+A. Four-tone Gaussian frequency shift keying
+B. Variable transmit/receive periods
+C. Seven different tone spacings
+D. All these choices are correct
+~~
+E2E05 (A)
+Which of these digital modes does not support keyboard-to-keyboard operation?
+A. WSPR
+B. RTTY
+C. PSK31
+D. MFSK16
+~~
+E2E06 (C)
+What is the length of an FT8 transmission cycle?
+A. It varies with the amount of data
+B. 8 seconds
+C. 15 seconds
+D. 30 seconds
+~~
+E2E07 (C)
+How does Q65 differ from JT65?
+A. Keyboard-to keyboard operation is supported
+B. Quadrature modulation is used
+C. Multiple receive cycles are averaged
+D. All these choices are correct
+~~
+E2E08 (B)
+Which of the following HF digital modes can be used to transfer binary files?
+A. PSK31
+B. PACTOR
+C. RTTY
+D. AMTOR
+~~
+E2E09 (D)
+Which of the following HF digital modes uses variable-length character coding?
+A. RTTY
+B. PACTOR
+C. MT63
+D. PSK31
+~~
+E2E10 (C)
+Which of these digital modes has the narrowest bandwidth?
+A. MFSK16
+B. 170 Hz shift, 45-baud RTTY
+C. FT8
+D. PACTOR IV
+~~
+E2E11 (A)
+What is the difference between direct FSK and audio FSK?
+A. Direct FSK modulates the transmitter VFO
+B. Direct FSK occupies less bandwidth
+C. Direct FSK can transmit higher baud rates
+D. All these choices are correct
+~~
+E2E12 (A)
+How do ALE stations establish contact?
+A. ALE constantly scans a list of frequencies, activating the radio when the designated call sign is received
+B. ALE radios monitor an internet site for the frequency they are being paged on
+C. ALE radios send a constant tone code to establish a frequency for future use
+D. ALE radios activate when they hear their signal echoed by back scatter
+~~
+E2E13 (D)
+Which of these digital modes has the highest data throughput under clear communication conditions?
+A. MFSK16
+B. 170 Hz shift, 45 baud RTTY
+C. FT8
+D. PACTOR IV
+~~
+SUBELEMENT E3 - RADIO WAVE PROPAGATION [3 Exam Questions - 3 Groups]
+
+E3A Electromagnetic Waves and Specialized Propagation: Earth-Moon-Earth (EME) communications; meteor scatter; microwave tropospheric and scatter propagation; auroral propagation; daily variation of ionospheric propagation; circular polarization
+
+E3A01 (D)
+What is the approximate maximum separation measured along the surface of the Earth between two stations communicating by EME?
+A. 2,000 miles, if the moon is at perigee
+B. 2,000 miles, if the moon is at apogee
+C. 5,000 miles, if the moon is at perigee
+D. 12,000 miles, if the moon is ?visible? by both stations
+~~
+E3A02 (B)
+What characterizes libration fading of an EME signal?
+A. A slow change in the pitch of the CW signal
+B. A fluttery, irregular fading
+C. A gradual loss of signal as the sun rises
+D. The returning echo is several hertz lower in frequency than the transmitted signal
+~~
+E3A03 (A)
+When scheduling EME contacts, which of these conditions will generally result in the least path loss?
+A. When the Moon is at perigee
+B. When the Moon is full
+C. When the Moon is at apogee
+D. When the MUF is above 30 MHz
+~~
+E3A04 (D)
+In what direction does an electromagnetic wave travel?
+A. It depends on the phase angle of the magnetic field
+B. It travels parallel to the electric and magnetic fields
+C. It depends on the phase angle of the electric field
+D. It travels at a right angle to the electric and magnetic fields
+~~
+E3A05 (C)
+How are the component fields of an electromagnetic wave oriented?
+A. They are parallel
+B. They are tangential
+C. They are at right angles
+D. They are 90 degrees out of phase
+~~
+E3A06 (B)
+What should be done to continue a long-distance contact when the MUF for that path decreases due to darkness?
+A. Switch to a higher frequency HF band
+B. Switch to a lower frequency HF band
+C. Change to an antenna with a higher takeoff angle
+D. Change to an antenna with greater beam width
+~~
+E3A07 (C)
+Atmospheric ducts capable of propagating microwave signals often form over what geographic feature?
+A. Mountain ranges
+B. Stratocumulus clouds
+C. Large bodies of water
+D. Nimbus clouds
+~~
+E3A08 (A)
+When a meteor strikes the Earth?s atmosphere, a linear ionized region is formed at what region of the ionosphere?
+A. The E region
+B. The F1 region
+C. The F2 region
+D. The D region
+~~
+E3A09 (C)
+Which of the following frequency ranges is most suited for meteor-scatter communications?
+A. 1.8 MHz - 1.9 MHz
+B. 10 MHz - 14 MHz
+C. 28 MHz - 148 MHz
+D. 220 MHz - 450 MHz
+~~
+E3A10 (D)
+What determines the speed of electromagnetic waves through a medium?
+A. Resistance and reactance
+B. Evanescence
+C. Birefringence
+D. The index of refraction
+~~
+E3A11 (B)
+What is a typical range for tropospheric duct propagation of microwave signals?
+A. 10 miles to 50 miles
+B. 100 miles to 300 miles
+C. 1,200 miles
+D. 2,500 miles
+~~
+E3A12 (C)
+What is most likely to result in auroral propagation?
+A. Meteor showers
+B. Quiet geomagnetic conditions
+C. Severe geomagnetic storms
+D. Extreme low-pressure areas in polar regions
+~~
+E3A13 (A)
+Which of these emission modes is best for auroral propagation?
+A. CW
+B. SSB
+C. FM
+D. RTTY
+~~
+E3A14 (B)
+What are circularly polarized electromagnetic waves?
+A. Waves with an electric field bent into a circular shape
+B. Waves with rotating electric and magnetic fields
+C. Waves that circle Earth
+D. Waves produced by a loop antenna
+~~
+E3B Transequatorial propagation; long-path propagation; ordinary and extraordinary waves; chordal hop; sporadic-E mechanisms; ground-wave propagation
+
+E3B01 (A)
+Where is transequatorial propagation (TEP) most likely to occur?
+A. Between points separated by 2,000 miles to 3,000 miles over a path perpendicular to the geomagnetic equator
+B. Between points located 1,500 miles to 2,000 miles apart on the geomagnetic equator
+C. Between points located at each other?s antipode
+D. Through the region where the terminator crosses the geographic equator
+~~
+E3B02 (C)
+What is the approximate maximum range for signals using transequatorial propagation?
+A. 1,000 miles
+B. 2,500 miles
+C. 5,000 miles
+D. 7,500 miles
+~~
+E3B03 (C)
+At what time of day is transequatorial propagation most likely to occur?
+A. Morning
+B. Noon
+C. Afternoon or early evening
+D. Late at night
+~~
+E3B04 (B)
+What are ?extraordinary? and ?ordinary? waves?
+A. Extraordinary waves exhibit rare long-skip propagation, compared to ordinary waves, which travel shorter distances
+B. Independently propagating, elliptically polarized waves created in the ionosphere
+C. Long-path and short-path waves
+D. Refracted rays and reflected waves
+~~
+E3B05 (D)
+Which of the following paths is most likely to support long-distance propagation on 160 meters?
+A. A path entirely in sunlight
+B. Paths at high latitudes
+C. A direct north-south path
+D. A path entirely in darkness
+~~
+E3B06 (B)
+On which of the following amateur bands is long-path propagation most frequent?
+A. 160 meters and 80 meters
+B. 40 meters and 20 meters
+C. 10 meters and 6 meters
+D. 6 meters and 2 meters
+~~
+E3B07 (C)
+What effect does lowering a signal?s transmitted elevation angle have on ionospheric HF skip propagation?
+A. Faraday rotation becomes stronger
+B. The MUF decreases
+C. The distance covered by each hop increases
+D. The critical frequency increases
+~~
+E3B08 (C)
+How does the maximum range of ground-wave propagation change when the signal frequency is increased?
+A. It stays the same
+B. It increases
+C. It decreases
+D. It peaks at roughly 8 MHz
+~~
+E3B09 (A)
+At what time of year is sporadic-E propagation most likely to occur?
+A. Around the solstices, especially the summer solstice
+B. Around the solstices, especially the winter solstice
+C. Around the equinoxes, especially the spring equinox
+D. Around the equinoxes, especially the fall equinox
+~~
+E3B10 (A)
+What is the effect of chordal-hop propagation?
+A. The signal experiences less loss compared to multi-hop propagation, which uses Earth as a reflector
+B. The MUF for chordal-hop propagation is much lower than for normal skip propagation
+C. Atmospheric noise is reduced in the direction of chordal-hop propagation
+D. Signals travel faster along ionospheric chords
+~~
+E3B11 (D)
+At what time of day is sporadic-E propagation most likely to occur?
+A. Between midnight and sunrise
+B. Between sunset and midnight
+C. Between sunset and sunrise
+D. Between sunrise and sunset
+~~
+E3B12 (B)
+What is chordal-hop propagation?
+A. Propagation away from the great circle bearing between stations
+B. Successive ionospheric refractions without an intermediate reflection from the ground
+C. Propagation across the geomagnetic equator
+D. Signals reflected back toward the transmitting station
+~~
+E3B13 (A)
+What type of polarization is supported by ground-wave propagation?
+A. Vertical
+B. Horizontal
+C. Circular
+D. Elliptical
+~~
+E3C Propagation prediction and reporting: radio horizon; effects of space-weather phenomena
+
+E3C01 (D)
+What is the cause of short-term radio blackouts?
+A. Coronal mass ejections
+B. Sunspots on the solar equator
+C. North-oriented interplanetary magnetic field
+D. Solar flares
+~~
+E3C02 (A)
+What is indicated by a rising A-index or K-index?
+A. Increasing disturbance of the geomagnetic field
+B. Decreasing disturbance of the geomagnetic field
+C. Higher levels of solar UV radiation
+D. An increase in the critical frequency
+~~
+E3C03 (B)
+Which of the following signal paths is most likely to experience high levels of absorption when the A-index or K-index is elevated?
+A. Transequatorial
+B. Through the auroral oval
+C. Sporadic-E
+D. NVIS
+~~
+E3C04 (C)
+What does the value of Bz (B sub z) represent?
+A. Geomagnetic field stability
+B. Critical frequency for vertical transmissions
+C. North-south strength of the interplanetary magnetic field
+D. Duration of long-delayed echoes
+~~
+E3C05 (A)
+What orientation of Bz (B sub z) increases the likelihood that charged particles from the Sun will cause disturbed conditions?
+A. Southward
+B. Northward
+C. Eastward
+D. Westward
+~~
+E3C06 (A)
+How does the VHF/UHF radio horizon compare to the geographic horizon?
+A. It is approximately 15 percent farther
+B. It is approximately 20 percent nearer
+C. It is approximately 50 percent farther
+D. They are approximately the same
+~~
+E3C07 (D)
+Which of the following indicates the greatest solar flare intensity?
+A. Class A
+B. Class Z
+C. Class M
+D. Class X
+~~
+E3C08 (D)
+Which of the following is the space-weather term for an extreme geomagnetic storm?
+A. B9
+B. X5
+C. M9
+D. G5
+~~
+E3C09 (D)
+What type of data is reported by amateur radio propagation reporting networks?
+A. Solar flux
+B. Electric field intensity
+C. Magnetic declination
+D. Digital-mode and CW signals
+~~
+E3C10 (B)
+What does the 304A solar parameter measure?
+A. The ratio of X-ray flux to radio flux, correlated to sunspot number
+B. UV emissions at 304 angstroms, correlated to the solar flux index
+C. The solar wind velocity at an angle of 304 degrees from the solar equator, correlated to geomagnetic storms
+D. The solar emission at 304 GHz, correlated to X-ray flare levels
+~~
+E3C11 (C)
+What does VOACAP software model?
+A. AC voltage and impedance
+B. VHF radio propagation
+C. HF propagation
+D. AC current and impedance
+~~
+E3C12 (B)
+Which of the following is indicated by a sudden rise in radio background noise across a large portion of the HF spectrum?
+A. A temperature inversion has occurred
+B. A coronal mass ejection impact or a solar flare has occurred
+C. Transequatorial propagation on 6 meters is likely
+D. Long-path propagation on the higher HF bands is likely
+~~
+SUBELEMENT E4 - AMATEUR PRACTICES [5 Exam Questions - 5 Groups]
+
+E4A Test equipment: analog and digital instruments; spectrum analyzers; antenna analyzers; oscilloscopes; RF measurements
+
+E4A01 (A)
+Which of the following limits the highest frequency signal that can be accurately displayed on a digital oscilloscope?
+A. Sampling rate of the analog-to-digital converter
+B. Analog-to-digital converter reference frequency
+C. Q of the circuit
+D. All these choices are correct
+~~
+E4A02 (B)
+Which of the following parameters does a spectrum analyzer display on the vertical and horizontal axes?
+A. Signal amplitude and time
+B. Signal amplitude and frequency
+C. SWR and frequency
+D. SWR and time
+~~
+E4A03 (B)
+Which of the following test instruments is used to display spurious signals and/or intermodulation distortion products generated by an SSB transmitter?
+A. Differential resolver
+B. Spectrum analyzer
+C. Logic analyzer
+D. Network analyzer
+~~
+E4A04 (A)
+How is compensation of an oscilloscope probe performed?
+A. A square wave is displayed, and the probe is adjusted until the horizontal portions of the displayed wave are as nearly flat as possible
+B. A high frequency sine wave is displayed, and the probe is adjusted for maximum amplitude
+C. A frequency standard is displayed, and the probe is adjusted until the deflection time is accurate
+D. A DC voltage standard is displayed, and the probe is adjusted until the displayed voltage is accurate
+~~
+E4A05 (D)
+What is the purpose of using a prescaler with a frequency counter?
+A. Amplify low-level signals for more accurate counting
+B. Multiply a higher frequency signal so a low-frequency counter can display the operating frequency
+C. Prevent oscillation in a low-frequency counter circuit
+D. Reduce the signal frequency to within the counter's operating range
+~~
+E4A06 (A)
+What is the effect of aliasing on a digital oscilloscope when displaying a waveform?
+A. A false, jittery low-frequency version of the waveform is displayed
+B. The waveform DC offset will be inaccurate
+C. Calibration of the vertical scale is no longer valid
+D. Excessive blanking occurs, which prevents display of the waveform
+~~
+E4A07 (B)
+Which of the following is an advantage of using an antenna analyzer compared to an SWR bridge?
+A. Antenna analyzers automatically tune your antenna for resonance
+B. Antenna analyzers compute SWR and impedance automatically
+C. Antenna analyzers display a time-varying representation of the modulation envelope
+D. All these choices are correct
+~~
+E4A08 (D)
+Which of the following is used to measure SWR?
+A. Directional wattmeter
+B. Vector network analyzer
+C. Antenna analyzer
+D. All these choices are correct
+~~
+E4A09 (A)
+Which of the following is good practice when using an oscilloscope probe?
+A. Minimize the length of the probe's ground connection
+B. Never use a high-impedance probe to measure a low-impedance circuit
+C. Never use a DC-coupled probe to measure an AC circuit
+D. All these choices are correct
+~~
+E4A10 (D)
+Which trigger mode is most effective when using an oscilloscope to measure a linear power supply?s output ripple?
+A. Single-shot
+B. Edge
+C. Level
+D. Line
+~~
+E4A11 (D)
+Which of the following can be measured with an antenna analyzer?
+A. Velocity factor
+B. Cable length
+C. Resonant frequency of a tuned circuit
+D. All these choices are correct
+~~
+E4B Measurement technique and limitations: instrument accuracy and performance limitations; probes; techniques to minimize errors; measurement of Q; instrument calibration; S parameters; vector network analyzers; RF signals
+
+E4B01 (B)
+Which of the following factors most affects the accuracy of a frequency counter?
+A. Input attenuator accuracy
+B. Time base accuracy
+C. Decade divider accuracy
+D. Temperature coefficient of the logic
+~~
+E4B02 (A)
+What is the significance of voltmeter sensitivity expressed in ohms per volt?
+A. The full scale reading of the voltmeter multiplied by its ohms per volt rating is the input impedance of the voltmeter
+B. The reading in volts multiplied by the ohms per volt rating will determine the power drawn by the device under test
+C. The reading in ohms divided by the ohms per volt rating will determine the voltage applied to the circuit
+D. The full scale reading in amps divided by ohms per volt rating will determine the size of shunt needed
+~~
+E4B03 (C)
+Which S parameter is equivalent to forward gain?
+A. S11
+B. S12
+C. S21
+D. S22
+~~
+E4B04 (A)
+Which S parameter represents input port return loss or reflection coefficient (equivalent to VSWR)?
+A. S11
+B. S12
+C. S21
+D. S22
+~~
+E4B05 (B)
+What three test loads are used to calibrate an RF vector network analyzer?
+A. 50 ohms, 75 ohms, and 90 ohms
+B. Short circuit, open circuit, and 50 ohms
+C. Short circuit, open circuit, and resonant circuit
+D. 50 ohms through 1/8 wavelength, 1/4 wavelength, and 1/2 wavelength of coaxial cable
+~~
+E4B06 (D)
+How much power is being absorbed by the load when a directional power meter connected between a transmitter and a terminating load reads 100 watts forward power and 25 watts reflected power?
+A. 100 watts
+B. 125 watts
+C. 112.5 watts
+D. 75 watts
+~~
+E4B07 (A)
+What do the subscripts of S parameters represent?
+A. The port or ports at which measurements are made
+B. The relative time between measurements
+C. Relative quality of the data
+D. Frequency order of the measurements
+~~
+E4B08 (C)
+Which of the following can be used to determine the Q of a series-tuned circuit?
+A. The ratio of inductive reactance to capacitive reactance
+B. The frequency shift
+C. The bandwidth of the circuit's frequency response
+D. The resonant frequency of the circuit
+~~
+E4B09 (B)
+Which of the following can be measured by a two-port vector network analyzer?
+A. Phase noise
+B. Filter frequency response
+C. Pulse rise time
+D. Forward power
+~~
+E4B10 (B)
+Which of the following methods measures intermodulation distortion in an SSB transmitter?
+A. Modulate the transmitter using two RF signals having non-harmonically related frequencies and observe the RF output with a spectrum analyzer
+B. Modulate the transmitter using two AF signals having non-harmonically related frequencies and observe the RF output with a spectrum analyzer
+C. Modulate the transmitter using two AF signals having harmonically related frequencies and observe the RF output with a peak reading wattmeter
+D. Modulate the transmitter using two RF signals having harmonically related frequencies and observe the RF output with a logic analyzer
+~~
+E4B11 (D)
+Which of the following can be measured with a vector network analyzer?
+A. Input impedance
+B. Output impedance
+C. Reflection coefficient
+D. All these choices are correct
+~~
+E4C Receiver performance: phase noise, noise floor, image rejection, minimum detectable signal (MDS), increasing signal-to-noise ratio and dynamic range, noise figure, reciprocal mixing; selectivity; SDR non-linearity; use of attenuators at low frequencies
+
+E4C01 (D)
+What is an effect of excessive phase noise in an SDR receiver?s master clock oscillator?
+A. It limits the receiver?s ability to receive strong signals
+B. It can affect the receiver?s frequency calibration
+C. It decreases the receiver?s third-order intercept point
+D. It can combine with strong signals on nearby frequencies to generate interference
+~~
+E4C02 (A)
+Which of the following receiver circuits can be effective in eliminating interference from strong out-of-band signals?
+A. A front-end filter or preselector
+B. A narrow IF filter
+C. A notch filter
+D. A properly adjusted product detector
+~~
+E4C03 (C)
+What is the term for the suppression in an FM receiver of one signal by another stronger signal on the same frequency?
+A. Desensitization
+B. Cross-modulation interference
+C. Capture effect
+D. Frequency discrimination
+~~
+E4C04 (D)
+What is the noise figure of a receiver?
+A. The ratio of atmospheric noise to phase noise
+B. The ratio of the noise bandwidth in hertz to the theoretical bandwidth of a resistive network
+C. The ratio in dB of the noise generated in the receiver to atmospheric noise
+D. The ratio in dB of the noise generated by the receiver to the theoretical minimum noise
+~~
+E4C05 (B)
+What does a receiver noise floor of -174 dBm represent?
+A. The receiver noise is 6 dB above the theoretical minimum
+B. The theoretical noise in a 1 Hz bandwidth at the input of a perfect receiver at room temperature
+C. The noise figure of a 1 Hz bandwidth receiver
+D. The receiver noise is 3 dB above theoretical minimum
+~~
+E4C06 (D)
+How much does increasing a receiver?s bandwidth from 50 Hz to 1,000 Hz increase the receiver?s noise floor?
+A. 3 dB
+B. 5 dB
+C. 10 dB
+D. 13 dB
+~~
+E4C07 (B)
+What does the MDS of a receiver represent?
+A. The meter display sensitivity
+B. The minimum discernible signal
+C. The modulation distortion specification
+D. The maximum detectable spectrum
+~~
+E4C08 (D)
+An SDR receiver is overloaded when input signals exceed what level?
+A. One-half of the maximum sample rate
+B. One-half of the maximum sampling buffer size
+C. The maximum count value of the analog-to-digital converter
+D. The reference voltage of the analog-to-digital converter
+~~
+E4C09 (C)
+Which of the following choices is a good reason for selecting a high IF for a superheterodyne HF or VHF communications receiver?
+A. Fewer components in the receiver
+B. Reduced drift
+C. Easier for front-end circuitry to eliminate image responses
+D. Improved receiver noise figure
+~~
+E4C10 (C)
+What is an advantage of having a variety of receiver bandwidths from which to select?
+A. The noise figure of the RF amplifier can be adjusted to match the modulation type, thus increasing receiver sensitivity
+B. Receiver power consumption can be reduced when wider bandwidth is not required
+C. Receive bandwidth can be set to match the modulation bandwidth, maximizing signal-to-noise ratio and minimizing interference
+D. Multiple frequencies can be received simultaneously if desired
+~~
+E4C11 (D)
+Why does input attenuation reduce receiver overload on the lower frequency HF bands with little or no impact on signal-to-noise ratio?
+A. The attenuator has a low-pass filter to increase the strength of lower frequency signals
+B. The attenuator has a noise filter to suppress interference
+C. Signals are attenuated separately from the noise
+D. Atmospheric noise is generally greater than internally generated noise even after attenuation
+~~
+E4C12 (C)
+How does a narrow-band roofing filter affect receiver performance?
+A. It improves sensitivity by reducing front-end noise
+B. It improves intelligibility by using low Q circuitry to reduce ringing
+C. It improves blocking dynamic range by attenuating strong signals near the receive frequency
+D. All these choices are correct
+~~
+E4C13 (D)
+What is reciprocal mixing?
+A. Two out-of-band signals mixing to generate an in-band spurious signal
+B. In-phase signals cancelling in a mixer resulting in loss of receiver sensitivity
+C. Two digital signals combining from alternate time slots
+D. Local oscillator phase noise mixing with adjacent strong signals to create interference to desired signals
+~~
+E4C14 (C)
+What is the purpose of the receiver IF Shift control?
+A. To permit listening on a different frequency from the transmitting frequency
+B. To change frequency rapidly
+C. To reduce interference from stations transmitting on adjacent frequencies
+D. To tune in stations slightly off frequency without changing the transmit frequency
+~~
+E4D Receiver performance characteristics: dynamic range; intermodulation and cross-modulation interference; third-order intercept; desensitization; preselector; sensitivity; link margin
+
+E4D01 (A)
+What is meant by the blocking dynamic range of a receiver?
+A. The difference in dB between the noise floor and the level of an incoming signal that will cause 1 dB of gain compression
+B. The minimum difference in dB between the levels of two FM signals that will cause one signal to block the other
+C. The difference in dB between the noise floor and the third-order intercept point
+D. The minimum difference in dB between two signals which produce third-order intermodulation products greater than the noise floor
+~~
+E4D02 (A)
+Which of the following describes problems caused by poor dynamic range in a receiver?
+A. Spurious signals caused by cross modulation and desensitization from strong adjacent signals
+B. Oscillator instability requiring frequent retuning and loss of ability to recover the opposite sideband
+C. Poor weak signal reception caused by insufficient local oscillator injection
+D. Oscillator instability and severe audio distortion of all but the strongest received signals
+~~
+E4D03 (B)
+What creates intermodulation interference between two repeaters in close proximity?
+A. The output signals cause feedback in the final amplifier of one or both transmitters
+B. The output signals mix in the final amplifier of one or both transmitters
+C. The input frequencies are harmonically related
+D. The output frequencies are harmonically related
+~~
+E4D04 (B)
+Which of the following is used to reduce or eliminate intermodulation interference in a repeater caused by a nearby transmitter?
+A. A band-pass filter in the feed line between the transmitter and receiver
+B. A properly terminated circulator at the output of the repeater?s transmitter
+C. Utilizing a Class C final amplifier
+D. Utilizing a Class D final amplifier
+~~
+E4D05 (A)
+What transmitter frequencies would create an intermodulation-product signal in a receiver tuned to 146.70 MHz when a nearby station transmits on 146.52 MHz?
+A. 146.34 MHz and 146.61 MHz
+B. 146.88 MHz and 146.34 MHz
+C. 146.10 MHz and 147.30 MHz
+D. 146.30 MHz and 146.90 MHz
+~~
+E4D06 (C)
+What is the term for the reduction in receiver sensitivity caused by a strong signal near the received frequency?
+A. Reciprocal mixing
+B. Quieting
+C. Desensitization
+D. Cross modulation interference
+~~
+E4D07 (A)
+Which of the following reduces the likelihood of receiver desensitization?
+A. Insert attenuation before the first RF stage
+B. Raise the receiver?s IF frequency
+C. Increase the receiver?s front-end gain
+D. Switch from fast AGC to slow AGC
+~~
+E4D08 (C)
+What causes intermodulation in an electronic circuit?
+A. Negative feedback
+B. Lack of neutralization
+C. Nonlinear circuits or devices
+D. Positive feedback
+~~
+E4D09 (C)
+What is the purpose of the preselector in a communications receiver?
+A. To store frequencies that are often used
+B. To provide broadband attenuation before the first RF stage to prevent intermodulation
+C. To increase the rejection of signals outside the band being received
+D. To allow selection of the optimum RF amplifier device
+~~
+E4D10 (C)
+What does a third-order intercept level of 40 dBm mean with respect to receiver performance?
+A. Signals less than 40 dBm will not generate audible third-order intermodulation products
+B. The receiver can tolerate signals up to 40 dB above the noise floor without producing third-order intermodulation products
+C. A pair of 40 dBm input signals will theoretically generate a third-order intermodulation product that has the same output amplitude as either of the input signals
+D. A pair of 1 mW input signals will produce a third-order intermodulation product that is 40 dB stronger than the input signal
+~~
+E4D11 (A)
+Why are odd-order intermodulation products, created within a receiver, of particular interest compared to other products?
+A. Odd-order products of two signals in the band being received are also likely to be within the band
+B. Odd-order products are more likely to overload the IF filters
+C. Odd-order products are an indication of poor image rejection
+D. Odd-order intermodulation produces three products for every input signal within the band of interest
+~~
+E4D12 (C)
+What is the link margin in a system with a transmit power level of 10 W (+40 dBm), a system antenna gain of 10 dBi, a cable loss of 3 dB, a path loss of 136 dB, a receiver minimum discernable signal of -103 dBm, and a required signal-to-noise ratio of 6 dB?
+A. -8dB
+B. -14dB
+C. +8dB
+D. +14dB
+~~
+E4D13 (A)
+What is the received signal level with a transmit power of 10 W (+40 dBm), a transmit antenna gain of 6 dBi, a receive antenna gain of 3 dBi, and a path loss of 100 dB?
+A. -51 dBm
+B. -54 dBm
+C. -57 dBm
+D. -60 dBm
+~~
+E4D14 (D)
+What power level does a receiver minimum discernible signal of -100 dBm represent?
+A. 100 microwatts
+B. 0.1 microwatt
+C. 0.001 microwatts
+D. 0.1 picowatts
+~~
+E4E Noise and interference: external RF interference; electrical and computer noise; line noise; DSP filtering and noise reduction; common-mode current; surge protectors; single point ground panel
+
+E4E01 (A)
+What problem can occur when using an automatic notch filter (ANF) to remove interfering carriers while receiving CW signals?
+A. Removal of the CW signal as well as the interfering carrier
+B. Any nearby signal passing through the DSP system will overwhelm the desired signal
+C. Excessive ringing
+D. All these choices are correct
+~~
+E4E02 (D)
+Which of the following types of noise can often be reduced by a digital noise reduction?
+A. Broadband white noise
+B. Ignition noise
+C. Power line noise
+D. All these choices are correct
+~~
+E4E03 (B)
+Which of the following types of noise are removed by a noise blanker?
+A. Broadband white noise
+B. Impulse noise
+C. Hum and buzz
+D. All these choices are correct
+~~
+E4E04 (D)
+How can conducted noise from an automobile battery charging system be suppressed?
+A. By installing filter capacitors in series with the alternator leads
+B. By installing a noise suppression resistor and a blocking capacitor at the battery
+C. By installing a high-pass filter in series with the radio?s power lead and a low-pass filter in parallel with the antenna feed line
+D. By installing ferrite chokes on the charging system leads
+~~
+E4E05 (B)
+What is used to suppress radio frequency interference from a line-driven AC motor?
+A. A high-pass filter in series with the motor?s power leads
+B. A brute-force AC-line filter in series with the motor?s power leads
+C. A bypass capacitor in series with the motor?s field winding
+D. A bypass choke in parallel with the motor?s field winding
+~~
+E4E06 (C)
+What type of electrical interference can be caused by computer network equipment?
+A. A loud AC hum in the audio output of your station?s receiver
+B. A clicking noise at intervals of a few seconds
+C. The appearance of unstable modulated or unmodulated signals at specific frequencies
+D. A whining-type noise that continually pulses off and on
+~~

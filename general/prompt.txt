@@ -1,0 +1,1 @@
+Make the most recent text file have the format of the older text file, while keeping the new text file's content. This is for purposes of building anki decks. Don't create any new code to do this, just overwrite the newest text file with your formatting changes.
