@@ -9,14 +9,11 @@ Usage:
     python update_pools.py --class tech     # only technician
     python update_pools.py --class general  # only general
     python update_pools.py --class extra    # only extra
-    python update_pools.py --build          # also run build_deck.py after
     python update_pools.py --dry-run        # show what would be downloaded
 """
 
 import argparse
-import os
 import re
-import sys
 import urllib.parse
 from datetime import date
 from pathlib import Path
@@ -240,24 +237,6 @@ def write_question_file(text: str, output_path: Path, num_questions: int):
     print(f"  Wrote {num_questions} questions to {output_path}")
 
 
-def update_build_script(class_dir: Path, txt_filename: str):
-    """Update the build_deck.py in class_dir to reference the new txt file."""
-    build_script = class_dir / "build_deck.py"
-    if not build_script.exists():
-        return
-
-    content = build_script.read_text()
-    # Find the fname = '...' line and update it
-    new_content = re.sub(
-        r"(fname\s*=\s*['\"])\./.+?(\.txt['\"])",
-        rf"\g<1>./{txt_filename}\g<2>",
-        content,
-    )
-    if new_content != content:
-        build_script.write_text(new_content)
-        print(f"  Updated {build_script} to use {txt_filename}")
-
-
 # ── main ───────────────────────────────────────────────────────────────────
 
 def process_class(class_key: str, pool_pages: dict[str, list[str]], dry_run: bool = False) -> Path | None:
@@ -293,7 +272,6 @@ def process_class(class_key: str, pool_pages: dict[str, list[str]], dry_run: boo
     txt_path = class_dir / txt_filename
 
     write_question_file(text, txt_path, num_questions)
-    update_build_script(class_dir, txt_filename)
 
     # Clean up downloaded docx
     docx_path.unlink()
@@ -309,10 +287,6 @@ def main():
     parser.add_argument(
         "--class", dest="license_class", choices=["tech", "general", "extra"],
         help="Only update a specific license class (default: all)",
-    )
-    parser.add_argument(
-        "--build", action="store_true",
-        help="Run build_deck.py after updating (requires Anki + AnkiConnect)",
     )
     parser.add_argument(
         "--dry-run", action="store_true",
@@ -335,17 +309,6 @@ def main():
         txt_path = process_class(cls, pool_pages, dry_run=args.dry_run)
         if txt_path:
             results[cls] = txt_path
-
-    if args.build and results:
-        print(f"\n{'='*60}")
-        print("Building Anki decks...")
-        print(f"{'='*60}")
-        print("NOTE: Anki must be running with AnkiConnect plugin installed.")
-        for cls, txt_path in results.items():
-            build_script = txt_path.parent / "build_deck.py"
-            if build_script.exists():
-                print(f"\n  Running {build_script} ...")
-                os.system(f"cd {txt_path.parent} && python build_deck.py")
 
     print("\nDone!")
 
