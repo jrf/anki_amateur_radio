@@ -15,7 +15,9 @@ Usage:
 import argparse
 import re
 import urllib.parse
+import zipfile
 from datetime import date
+from io import BytesIO
 from pathlib import Path
 
 import requests
@@ -49,6 +51,11 @@ QUESTION_ID_RE = re.compile(
 ANSWER_RE = re.compile(r"^([A-D])\.\s+")
 
 REPO_ROOT = Path(__file__).resolve().parent
+
+# Regex to extract a figure ID like T1, T-2, G7-1, E5-1 from a filename
+FIGURE_ID_IN_FILENAME_RE = re.compile(r"(?:^|[^A-Za-z])([TEG]\d+(?:-\d+)?)(?:[^A-Za-z0-9]|$)", re.IGNORECASE)
+
+IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".gif", ".svg"}
 
 
 # ── web scraping ───────────────────────────────────────────────────────────
@@ -135,13 +142,172 @@ def discover_pool_pages() -> dict[str, list[str]]:
     return result
 
 
-def find_pool_docx(class_key: str, pool_pages: dict[str, list[str]]) -> str | None:
-    """Try each discovered NCVEC page for a class and return the first .docx URL found."""
+def find_pool_docx(class_key: str, pool_pages: dict[str, list[str]]) -> tuple[str | None, str | None]:
+    """Try each discovered NCVEC page for a class and return (docx_url, page_url)."""
     for page_url in pool_pages.get(class_key, []):
         url = find_docx_url(page_url)
         if url:
-            return url
-    return None
+            return url, page_url
+    return None, None
+
+
+def find_figure_urls(page_url: str) -> list[str]:
+    """Scrape an NCVEC pool page for figure/diagram download links.
+
+    Returns URLs for individual image files (.jpg/.png), PDFs with a
+    recognizable figure ID, and .zip archives containing figures.
+    """
+    resp = requests.get(page_url, timeout=30)
+    resp.raise_for_status()
+    soup = BeautifulSoup(resp.text, "html.parser")
+
+    urls = []
+    for a_tag in soup.find_all("a", href=True):
+        href = a_tag["href"]
+        lower = href.lower()
+        combined = (a_tag.get_text() + " " + href).lower()
+        is_figure_context = any(
+            kw in combined for kw in ("diagram", "figure", "graphic", "svg")
+        )
+        if not is_figure_context:
+            continue
+
+        is_image = any(lower.endswith(ext) for ext in IMAGE_EXTENSIONS)
+        is_zip = lower.endswith(".zip")
+        # Include PDFs that have a recognizable figure ID (e.g. G7-1.pdf)
+        is_figure_pdf = lower.endswith(".pdf") and extract_figure_id(
+            urllib.parse.unquote(href.split("/")[-1])
+        )
+        if is_image or is_zip or is_figure_pdf:
+            full_url = urllib.parse.urljoin(page_url, href)
+            urls.append(full_url)
+
+    return urls
+
+
+def extract_figure_id(filename: str) -> str | None:
+    """Try to extract a figure ID (e.g. T1, G7-1, E5-1) from a filename."""
+    m = FIGURE_ID_IN_FILENAME_RE.search(filename)
+    return m.group(1).upper() if m else None
+
+
+def _convert_pdf_to_png(pdf_bytes: bytes, dest: Path):
+    """Convert a single-page PDF to PNG using pdftoppm (poppler).
+    Falls back to saving the raw PDF if pdftoppm is not available."""
+    import shutil
+    import subprocess
+    import tempfile
+
+    if not shutil.which("pdftoppm"):
+        pdf_dest = dest.with_suffix(".pdf")
+        pdf_dest.write_bytes(pdf_bytes)
+        print(f"    (pdftoppm not found — saved as {pdf_dest.name}, "
+              "install poppler to auto-convert)")
+        return
+
+    with tempfile.NamedTemporaryFile(suffix=".pdf", delete=False) as tmp_pdf:
+        tmp_pdf.write(pdf_bytes)
+        tmp_pdf_path = tmp_pdf.name
+
+    try:
+        out_prefix = str(dest.with_suffix(""))
+        subprocess.run(
+            ["pdftoppm", "-png", "-r", "200", "-singlefile",
+             tmp_pdf_path, out_prefix],
+            capture_output=True, check=True,
+        )
+        print(f"    Converted to {dest.name}")
+    except subprocess.CalledProcessError:
+        pdf_dest = dest.with_suffix(".pdf")
+        pdf_dest.write_bytes(pdf_bytes)
+        print(f"    (pdftoppm failed — saved as {pdf_dest.name})")
+    finally:
+        Path(tmp_pdf_path).unlink(missing_ok=True)
+
+
+def download_figures(figure_urls: list[str], figures_dir: Path) -> int:
+    """Download figure images to figures_dir. Handles individual images,
+    .zip archives containing SVGs, and single-figure PDFs.
+    Returns count of figures saved."""
+    figures_dir.mkdir(parents=True, exist_ok=True)
+    count = 0
+
+    for url in figure_urls:
+        filename = urllib.parse.unquote(url.split("/")[-1])
+
+        if filename.lower().endswith(".zip"):
+            # Download and extract zip (e.g. SVG archives)
+            print(f"  Downloading figure archive: {filename} ...")
+            try:
+                resp = requests.get(url, timeout=120)
+                resp.raise_for_status()
+            except requests.HTTPError as e:
+                print(f"    WARNING: Failed to download {filename}: {e}")
+                continue
+            with zipfile.ZipFile(BytesIO(resp.content)) as zf:
+                for member in zf.namelist():
+                    ext = Path(member).suffix.lower()
+                    if ext not in IMAGE_EXTENSIONS:
+                        continue
+                    fig_id = extract_figure_id(member)
+                    dest_name = f"{fig_id}{ext}" if fig_id else member
+                    dest = figures_dir / dest_name
+                    if dest.exists():
+                        print(f"    Already have: {dest_name}")
+                    else:
+                        dest.write_bytes(zf.read(member))
+                        print(f"    Extracted: {dest_name}")
+                    count += 1
+            continue
+
+        # Individual image or single-figure PDF
+        fig_id = extract_figure_id(filename)
+        ext = Path(filename).suffix.lower()
+
+        # For PDFs with a figure ID, convert to PNG
+        if ext == ".pdf" and fig_id:
+            dest = figures_dir / f"{fig_id}.png"
+            if dest.exists() or (figures_dir / f"{fig_id}.pdf").exists():
+                print(f"  Already have: {fig_id}")
+                count += 1
+                continue
+            # Skip PDF if we already have this figure as an image
+            if any((figures_dir / f"{fig_id}{e}").exists()
+                   for e in IMAGE_EXTENSIONS):
+                count += 1
+                continue
+
+        dest_name = f"{fig_id}{ext}" if fig_id else filename
+        dest = figures_dir / dest_name
+
+        # Skip download if we already have this figure in any image format
+        if fig_id and any((figures_dir / f"{fig_id}{e}").exists()
+                         for e in IMAGE_EXTENSIONS):
+            print(f"  Already have: {fig_id}")
+            count += 1
+            continue
+
+        if dest.exists():
+            print(f"  Already have: {dest_name}")
+            count += 1
+            continue
+
+        print(f"  Downloading figure: {filename} -> {dest_name}")
+        try:
+            resp = requests.get(url, timeout=60)
+            resp.raise_for_status()
+        except requests.HTTPError as e:
+            print(f"    WARNING: Failed ({e}), skipping")
+            continue
+
+        if ext == ".pdf" and fig_id:
+            png_dest = figures_dir / f"{fig_id}.png"
+            _convert_pdf_to_png(resp.content, png_dest)
+        else:
+            dest.write_bytes(resp.content)
+        count += 1
+
+    return count
 
 
 def download_docx(url: str, dest: Path) -> Path:
@@ -246,7 +412,7 @@ def process_class(class_key: str, pool_pages: dict[str, list[str]], dry_run: boo
     print(f"Processing: {class_name.upper()}")
     print(f"{'='*60}")
 
-    url = find_pool_docx(class_key, pool_pages)
+    url, page_url = find_pool_docx(class_key, pool_pages)
     if not url:
         print(f"  ERROR: Could not find a .docx download for {class_name}")
         return None
@@ -259,6 +425,16 @@ def process_class(class_key: str, pool_pages: dict[str, list[str]], dry_run: boo
 
     class_dir = REPO_ROOT / class_name
     docx_path = download_docx(url, class_dir)
+
+    # Download figures/diagrams
+    if page_url:
+        figure_urls = find_figure_urls(page_url)
+        if figure_urls:
+            figures_dir = class_dir / "figures"
+            n = download_figures(figure_urls, figures_dir)
+            print(f"  {n} figure(s) in {figures_dir}")
+        else:
+            print("  No figure downloads found on pool page")
 
     text = extract_text_from_docx(docx_path)
     num_questions = count_questions(text)

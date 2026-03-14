@@ -39,7 +39,7 @@ def build_figure_map(figures_dir: Path) -> dict[str, Path]:
     if not figures_dir.is_dir():
         return fig_map
     for f in figures_dir.iterdir():
-        if f.suffix.lower() in (".png", ".jpg", ".jpeg", ".gif"):
+        if f.suffix.lower() in (".png", ".jpg", ".jpeg", ".gif", ".svg"):
             key = _normalize_figure_key(f.stem)
             fig_map[key] = f
     return fig_map
