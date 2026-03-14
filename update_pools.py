@@ -18,6 +18,7 @@ import os
 import re
 import sys
 import urllib.parse
+from datetime import date
 from pathlib import Path
 
 import requests
@@ -26,17 +27,13 @@ from docx import Document
 
 # ── configuration ──────────────────────────────────────────────────────────
 
-NCVEC_POOL_PAGES = {
-    "tech": [
-        "https://ncvec.org/index.php/2026-2030-technician-question-pool",
-        "https://ncvec.org/index.php/2022-2026-technician-question-pool",
-    ],
-    "general": [
-        "https://ncvec.org/index.php/2023-2027-general-question-pool-release",
-    ],
-    "extra": [
-        "https://ncvec.org/index.php/2024-2028-extra-class-question-pool-release",
-    ],
+NCVEC_INDEX_URL = "https://ncvec.org/index.php/amateur-question-pools"
+
+# Keywords in NCVEC pool page URLs/titles that identify each license class
+CLASS_URL_KEYWORDS = {
+    "tech": "technician",
+    "general": "general",
+    "extra": "extra",
 }
 
 # Maps class key → output directory
@@ -89,9 +86,61 @@ def find_docx_url(page_url: str) -> str | None:
     return candidates[0]
 
 
-def find_pool_docx(class_key: str) -> str | None:
-    """Try each NCVEC page for a class and return the first .docx URL found."""
-    for page_url in NCVEC_POOL_PAGES[class_key]:
+def discover_pool_pages() -> dict[str, list[str]]:
+    """Scrape the NCVEC question pools index page and return a dict mapping
+    class key → list of pool page URLs, sorted newest first."""
+    print(f"  Discovering pools from {NCVEC_INDEX_URL} ...")
+    resp = requests.get(NCVEC_INDEX_URL, timeout=30)
+    resp.raise_for_status()
+    soup = BeautifulSoup(resp.text, "html.parser")
+
+    # Collect all links that have a year range and a class keyword
+    year_range_re = re.compile(r"(\d{4})[_-](\d{4})")
+    pool_pages: dict[str, list[tuple[int, str]]] = {k: [] for k in CLASS_URL_KEYWORDS}
+
+    for a_tag in soup.find_all("a", href=True):
+        href = a_tag["href"]
+        text = (a_tag.get_text() + " " + href).lower()
+        m = year_range_re.search(href) or year_range_re.search(a_tag.get_text())
+        if not m:
+            continue
+        start_year = int(m.group(1))
+        for class_key, keyword in CLASS_URL_KEYWORDS.items():
+            if keyword in text:
+                full_url = urllib.parse.urljoin(NCVEC_INDEX_URL, href)
+                pool_pages[class_key].append((start_year, full_url))
+                break
+
+    # Sort each class by start year descending (newest first) and pick the
+    # pool that is currently active or the most recent one available.
+    # Pool cycles start July 1, so a pool with start_year Y is active from
+    # July 1 of year Y through June 30 of the end year.
+    today = date.today()
+    result: dict[str, list[str]] = {}
+    for class_key, entries in pool_pages.items():
+        entries.sort(key=lambda e: e[0], reverse=True)
+        # Find the active pool: start_year where July 1 has already passed
+        active = []
+        for start_year, url in entries:
+            effective_date = date(start_year, 7, 1)
+            if effective_date <= today:
+                active.append(url)
+                break
+        # Also include the newest pool (may be a future one for study prep)
+        if entries and entries[0][1] not in active:
+            active.insert(0, entries[0][1])
+        result[class_key] = active if active else [url for _, url in entries]
+
+    for class_key, urls in result.items():
+        for url in urls:
+            print(f"    {class_key}: {url}")
+
+    return result
+
+
+def find_pool_docx(class_key: str, pool_pages: dict[str, list[str]]) -> str | None:
+    """Try each discovered NCVEC page for a class and return the first .docx URL found."""
+    for page_url in pool_pages.get(class_key, []):
         url = find_docx_url(page_url)
         if url:
             return url
@@ -211,14 +260,14 @@ def update_build_script(class_dir: Path, txt_filename: str):
 
 # ── main ───────────────────────────────────────────────────────────────────
 
-def process_class(class_key: str, dry_run: bool = False) -> Path | None:
+def process_class(class_key: str, pool_pages: dict[str, list[str]], dry_run: bool = False) -> Path | None:
     """Download, parse, and write the question file for one license class."""
     class_name = CLASS_DIRS[class_key]
     print(f"\n{'='*60}")
     print(f"Processing: {class_name.upper()}")
     print(f"{'='*60}")
 
-    url = find_pool_docx(class_key)
+    url = find_pool_docx(class_key, pool_pages)
     if not url:
         print(f"  ERROR: Could not find a .docx download for {class_name}")
         return None
@@ -273,9 +322,17 @@ def main():
 
     classes = [args.license_class] if args.license_class else ["tech", "general", "extra"]
 
+    print("Discovering latest question pools from NCVEC...")
+    pool_pages = discover_pool_pages()
+
+    for cls in classes:
+        if cls not in pool_pages or not pool_pages[cls]:
+            print(f"\n  WARNING: No pool pages found for {cls} on NCVEC index.")
+            print(f"  The NCVEC site structure may have changed. Check {NCVEC_INDEX_URL}")
+
     results = {}
     for cls in classes:
-        txt_path = process_class(cls, dry_run=args.dry_run)
+        txt_path = process_class(cls, pool_pages, dry_run=args.dry_run)
         if txt_path:
             results[cls] = txt_path
 
