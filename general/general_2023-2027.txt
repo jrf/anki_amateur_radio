@@ -1,3 +1,4 @@
+~~
 G1A01 (C) [97.301(d)]
 On which HF and/or MF amateur bands are there portions where General class licensees cannot transmit?
 A. 60 meters, 30 meters, 17 meters, and 12 meters
@@ -19,26 +20,19 @@ B. 30 meters
 C. 20 meters
 D. 12 meters
 ~~
-G1A04 (D) [97.303(h)]
-Which of the following amateur bands is restricted to communication only on specific channels, rather than frequency ranges?
-A. 11 meters
-B. 12 meters
-C. 30 meters
-D. 60 meters
-~~
 G1A05 (A) [97.301(d)]
 On which of the following frequencies are General class licensees prohibited from operating as control operator?
 A. 7.125 MHz to 7.175 MHz
 B. 28.000 MHz to 28.025 MHz
 C. 21.275 MHz to 21.300 MHz
-D. All of the above
+D. All these choices are correct
 ~~
 G1A06 (C) [97.303]
 Which of the following applies when the FCC rules designate the amateur service as a secondary user on a band?
 A. Amateur stations must record the call sign of the primary service station before operating on a frequency assigned to that station
 B. Amateur stations may use the band only during emergencies
 C. Amateur stations must not cause harmful interference to primary users and must accept interference from primary users
-D. Amateur stations may only operate during specific hours of the day, while primary users are permitted 24- hour use of the band
+D. Amateur stations may only operate during specific hours of the day, while primary users are permitted 24-hour use of the band
 ~~
 G1A07 (D) [97.305(a)]
 On which amateur frequencies in the 10-meter band may stations with a General class control operator transmit CW emissions?
@@ -74,13 +68,6 @@ A. The lower frequency portion
 B. The upper frequency portion
 C. The lower frequency portion on frequencies below 7.3 MHz, and the upper portion on frequencies above 14.150 MHz
 D. The upper frequency portion on frequencies below 7.3 MHz, and the lower portion on frequencies above 14.150 MHz
-~~
-G1B01 (C) [97.15(a)]
-What is the maximum height above ground for an antenna structure not near a public use airport without requiring notification to the FAA and registration with the FCC?
-A. 50 feet
-B. 100 feet
-C. 200 feet
-D. 250 feet
 ~~
 G1B02 (A) [97.203(b)]
 With which of the following conditions must beacon stations comply?
@@ -152,13 +139,6 @@ B. The control operator
 C. The IEEE
 D. The ITU
 ~~
-G1C01 (A) [97.313(c)(1)]
-What is the maximum transmitter power an amateur station may use on 10.140 MHz?
-A. 200 watts PEP output
-B. 1000 watts PEP output
-C. 1500 watts PEP output
-D. 2000 watts PEP output
-~~
 G1C02 (C) [97.313]
 What is the maximum transmitter power an amateur station may use on the 12-meter band?
 A. 50 watts PEP output
@@ -201,40 +181,12 @@ B. Obtain an experimental license from the FCC
 C. Publicly document the technical characteristics of the protocol
 D. Submit a rule-making proposal to the FCC describing the codes and methods of the technique
 ~~
-G1C08 (D) [97.307(f)(3)]
-What is the maximum symbol rate permitted for RTTY or data emission transmitted at frequencies below 28 MHz?
-A. 56 kilobaud
-B. 19.6 kilobaud
-C. 1200 baud
-D. 300 baud
-~~
-G1C09 (C) [97.313(i)]
-What is the maximum power limit on the 60-meter band?
-A. 1500 watts PEP
-B. 10 watts RMS
-C. ERP of 100 watts PEP with respect to a dipole
-D. ERP of 100 watts PEP with respect to an isotropic antenna
-~~
-G1C10 (C) [97.305(c) and 97.307(f)(4)]
-What is the maximum symbol rate permitted for RTTY or data emission transmissions on the 10-meter band?
-A. 56 kilobaud
-B. 19.6 kilobaud
-C. 1200 baud
-D. 300 baud
-~~
 G1C11 (D) [97.313]
 What measurement is specified by FCC rules that regulate maximum power?
 A. RMS output from the transmitter
 B. RMS input to the antenna
 C. PEP input to the antenna
 D. PEP output from the transmitter
-~~
-G1D01 (A) [97.501, 97.505(a)]
-Who may receive partial credit for the elements represented by an expired amateur radio license?
-A. Any person who can demonstrate that they once held an FCC-issued General, Advanced, or Amateur Extra class license that was not revoked by the FCC
-B. Anyone who held an FCC-issued amateur radio license that expired not less than 5 and not more than 15 years ago
-C. Any person who previously held an amateur license issued by another country, but only if that country has a current reciprocal licensing agreement with the FCC
-D. Only persons who once held an FCC issued Novice, Technician, or Technician Plus license
 ~~
 G1D02 (C) [97.509(b)(3)(i)]
 What license examinations may you administer as an accredited Volunteer Examiner holding a General class operator license?
@@ -313,13 +265,6 @@ B. Those of the remote station?s country and the FCC?s third-party regulations
 C. Only those of the remote station?s country
 D. Only those of the FCC
 ~~
-G1E01 (A) [97.115(b)(2)]
-Which of the following would disqualify a third party from participating in sending a message via an amateur station?
-A. The third party?s amateur license has been revoked and not reinstated
-B. The third party is not a US citizen
-C. The third party is speaking in a language other than English
-D. All these choices are correct
-~~
 G1E02 (D) [97.205(b)]
 When may a 10-meter repeater retransmit the 2-meter signal from a station that has a Technician class control operator?
 A. Under no circumstances
@@ -369,13 +314,6 @@ B. 10 watts
 C. 100 watts
 D. 1500 watts
 ~~
-G1E09 (A) [97.115]
-Under what circumstances are messages that are sent via digital modes exempt from Part 97 third-party rules that apply to other modes of communication?
-A. Under no circumstances
-B. When messages are encrypted
-C. When messages are not encrypted
-D. When under automatic control
-~~
 G1E10 (A) [97.101]
 Why should an amateur operator normally avoid transmitting on 14.100, 18.110, 21.150, 24.930 and 28.200 MHz?
 A. A system of propagation beacon stations operates on those frequencies
@@ -396,13 +334,6 @@ A. Under any circumstances in which third party messages are permitted by FCC ru
 B. Under no circumstances except for emergencies
 C. Only when the message is intended for licensed radio amateurs
 D. Only when the message is intended for third parties in areas where licensing is controlled by the FCC
-~~
-G2A01 (A)
-Which mode is most commonly used for voice communications on frequencies of 14 MHz or higher?
-A. Upper sideband
-B. Lower sideband
-C. Suppressed sideband
-D. Double sideband
 ~~
 G2A02 (B)
 Which mode is most commonly used for voice communications on the 160-, 75-, and 40-meter bands?
@@ -481,13 +412,6 @@ B. Transmit audio or microphone gain
 C. Antenna inductance or capacitance
 D. Attenuator level
 ~~
-G2B01 (C) [97.101(b), (c)]
-Which of the following is true concerning access to frequencies?
-A. Nets have priority
-B. QSOs in progress have priority
-C. Except during emergencies, no amateur station has priority access to any frequency
-D. Contest operations should yield to non-contest use of frequencies
-~~
 G2B02 (B)
 What is the first thing you should do if you are communicating with another amateur station and hear a station in distress break in?
 A. Inform your local emergency coordinator
@@ -557,13 +481,6 @@ A. No more than 1 hour per month
 B. No more than 2 hours per month
 C. No more than 1 hour per week
 D. No more than 2 hours per week
-~~
-G2C01 (D)
-Which of the following describes full break-in CW operation (QSK)?
-A. Breaking stations send the Morse code prosign ?BK?
-B. Automatic keyers, instead of hand keys, are used to send Morse code
-C. An operator must activate a manual send/receive switch before and after every transmission
-D. Transmitting stations can receive between code characters and elements
 ~~
 G2C02 (A)
 What should you do if a CW station sends ?QRS??
@@ -635,13 +552,6 @@ B. There is interference on the frequency
 C. I am quitting for the day
 D. I am ready to receive
 ~~
-G2D01 (A)
-What is the Volunteer Monitor Program?
-A. Amateur volunteers who are formally enlisted to monitor the airwaves for rules violations
-B. Amateur volunteers who conduct amateur licensing examinations
-C. Amateur volunteers who conduct frequency coordination for amateur VHF repeaters
-D. Amateur volunteers who use their station equipment to help civil defense organizations in times of emergency
-~~
 G2D02 (D)
 Which of the following are objectives of the Volunteer Monitor Program?
 A. To conduct efficient and orderly amateur licensing examinations
@@ -711,13 +621,6 @@ A. To allow each station to operate according to conditions
 B. To be sure the contact will count for award programs
 C. To follow standard radiogram structure
 D. To allow each station to calibrate their frequency display
-~~
-G2E01 (D)
-Which mode is normally used when sending RTTY signals via AFSK with an SSB transmitter?
-A. USB
-B. DSB
-C. CW
-D. LSB
 ~~
 G2E02 (B)
 What is VARA?
@@ -794,7 +697,7 @@ Which of the following describes Winlink?
 A. An amateur radio wireless network to send and receive email on the internet
 B. A form of Packet Radio
 C. A wireless network capable of both VHF and HF band operation
-D. All of the above
+D. All these choices are correct
 ~~
 G2E13 (B)
 What is another name for a Winlink Remote Message Server?
@@ -816,13 +719,6 @@ A. Anywhere in the voice portion of the band
 B. Anywhere in the CW portion of the band
 C. Approximately 14.074 MHz to 14.077 MHz
 D. Approximately 14.110 MHz to 14.113 MHz
-~~
-G3A01 (A)
-How does a higher sunspot number affect HF propagation?
-A. Higher sunspot numbers generally indicate a greater probability of good propagation at higher frequencies
-B. Lower sunspot numbers generally indicate greater probability of sporadic E propagation
-C. A zero sunspot number indicates that radio propagation is not possible on any band
-D. A zero sunspot number indicates undisturbed conditions
 ~~
 G3A02 (B)
 What effect does a sudden ionospheric disturbance have on the daytime ionospheric propagation?
@@ -915,13 +811,6 @@ B. HF communication is disturbed
 C. VHF/UHF ducting is improved
 D. VHF/UHF ducting is disturbed
 ~~
-G3B01 (D)
-What is a characteristic of skywave signals arriving at your location by both short-path and long-path propagation?
-A. Periodic fading approximately every 10 seconds
-B. Signal strength increased by 3 dB
-C. The signal might be cancelled causing severe attenuation
-D. A slightly delayed echo might be heard
-~~
 G3B02 (D)
 What factors affect the MUF?
 A. Path distance and location
@@ -960,9 +849,9 @@ D. They are refracted and trapped in the ionosphere to circle Earth
 G3B07 (A)
 What does LUF stand for?
 A. The Lowest Usable Frequency for communications between two specific points
-B. Lowest Usable Frequency for communications to any point outside a 100-mile radius
+B. The Lowest Usable Frequency for communications to any point outside a 100-mile radius
 C. The Lowest Usable Frequency during a 24-hour period
-D. Lowest Usable Frequency during the past 60 minutes
+D. The Lowest Usable Frequency during the past 60 minutes
 ~~
 G3B08 (B)
 What does MUF stand for?
@@ -998,13 +887,6 @@ A. Poor propagation at any time of day
 B. World-wide propagation during daylight hours
 C. Heavy distortion on signals due to photon absorption
 D. High levels of atmospheric noise or static
-~~
-G3C01 (A)
-Which ionospheric region is closest to the surface of Earth?
-A. The D region
-B. The E region
-C. The F1 region
-D. The F2 region
 ~~
 G3C02 (A)
 What is meant by the term ?critical frequency? at a given incidence angle?
@@ -1075,13 +957,6 @@ A. The F2 region
 B. The F1 region
 C. The E region
 D. The D region
-~~
-G4A01 (B)
-What is the purpose of the notch filter found on many HF transceivers?
-A. To restrict the transmitter voice bandwidth
-B. To reduce interference from carriers in the receiver passband
-C. To eliminate receiver interference from impulse noise sources
-D. To remove interfering splatter generated by signals on adjacent frequencies
 ~~
 G4A02 (C)
 What is the benefit of using the opposite or ?reverse? sideband when receiving CW?
@@ -1167,13 +1042,6 @@ B. To reduce the transmitter power when driving a linear amplifier
 C. To reduce power consumption when operating from batteries
 D. To reduce excessive audio level on strong signals
 ~~
-G4B01 (D)
-What item of test equipment contains horizontal and vertical channel amplifiers?
-A. An ohmmeter
-B. A signal generator
-C. An ammeter
-D. An oscilloscope
-~~
 G4B02 (D)
 Which of the following is an advantage of an oscilloscope versus a digital voltmeter?
 A. An oscilloscope uses less power
@@ -1258,13 +1126,6 @@ B. Power output from a transmitter
 C. Impedance of coaxial cable
 D. Gain of a directional antenna
 ~~
-G4C01 (B)
-Which of the following might be useful in reducing RF interference to audio frequency circuits?
-A. Bypass inductor
-B. Bypass capacitor
-C. Forward-biased diode
-D. Reverse-biased diode
-~~
 G4C02 (C)
 Which of the following could be a cause of interference covering a wide range of frequencies?
 A. Not using a balun or line isolator to feed balanced antennas
@@ -1342,13 +1203,6 @@ B. It prevents signal overload
 C. It ensures that the neutral wire is grounded
 D. It ensures that hazardous voltages cannot appear on the chassis
 ~~
-G4D01 (A)
-What is the purpose of a speech processor in a transceiver?
-A. Increase the apparent loudness of transmitted voice signals
-B. Increase transmitter bass response for more natural-sounding SSB signals
-C. Prevent distortion of voice signals
-D. Decrease high-frequency voice output to prevent out-of-band operation
-~~
 G4D02 (B)
 How does a speech processor affect a single sideband phone signal?
 A. It increases peak power
@@ -1419,13 +1273,6 @@ B. At least 3 kHz below the edge of the band
 C. At least 1 kHz above the edge of the segment
 D. At least 1 kHz below the edge of the segment
 ~~
-G4E01 (C)
-What is the purpose of a capacitance hat on a mobile antenna?
-A. To increase the power handling capacity of a whip antenna
-B. To reduce radiation resistance
-C. To electrically lengthen a physically short antenna
-D. To lower the radiation angle
-~~
 G4E02 (D)
 What is the purpose of a corona ball on an HF mobile antenna?
 A. To narrow the operating bandwidth of the antenna
@@ -1495,13 +1342,6 @@ A. Ground the solar panel outer metal framework
 B. Ensure the battery is placed terminals-up
 C. A series resistor must be in place
 D. The solar panel must have a charge controller
-~~
-G5A01 (C)
-What happens when inductive and capacitive reactance are equal in a series LC circuit?
-A. Resonance causes impedance to be very high
-B. Impedance is equal to the geometric mean of the inductance and capacitance
-C. Resonance causes impedance to be very low
-D. Impedance is equal to the arithmetic mean of the inductance and capacitance
 ~~
 G5A02 (B)
 What is reactance?
@@ -1580,13 +1420,6 @@ B. Resistance is cancelled
 C. The circuit radiates all its energy in the form of radio waves
 D. Inductive reactance and capacitive reactance cancel
 ~~
-G5B01 (B)
-What dB change represents a factor of two increase or decrease in power?
-A. Approximately 2 dB
-B. Approximately 3 dB
-C. Approximately 6 dB
-D. Approximately 9 dB
-~~
 G5B02 (C)
 How does the total current relate to the individual currents in a circuit of parallel resistors?
 A. It equals the average of the branch currents
@@ -1630,7 +1463,7 @@ C. The RMS value
 D. The reciprocal of the RMS value
 ~~
 G5B08 (D)
-What is the peak-to-peak voltage of a sine wave with an RMS voltage of 120.0 volts?
+What is the peak-to-peak voltage of a sine wave with an RMS voltage of 120 volts?
 A. 84.8 volts
 B. 169.7 volts
 C. 240.0 volts
@@ -1644,100 +1477,93 @@ C. 24 volts
 D. 34 volts
 ~~
 G5B10 (C)
-What percentage of power loss would result from a transmission line loss of 1 dB?
+What percentage of power loss is equivalent to a loss of 1 dB?
 A. 10.9 percent
 B. 12.2 percent
 C. 20.6 percent
 D. 25.9 percent
 ~~
 G5B11 (B)
-What is the ratio of peak envelope power to average power for an unmodulated carrier?
+What is the ratio of PEP to average power for an unmodulated carrier?
 A. 0.707
 B. 1.00
 C. 1.414
 D. 2.00
 ~~
 G5B12 (B)
-What would be the RMS voltage across a 50-ohm dummy load dissipating 1200 watts?
+What is the RMS voltage across a 50-ohm dummy load dissipating 1200 watts?
 A. 173 volts
 B. 245 volts
 C. 346 volts
 D. 692 volts
 ~~
 G5B13 (B)
-What is the output PEP of an unmodulated carrier if an average reading wattmeter connected to the transmitter output indicates 1060 watts?
+What is the output PEP of an unmodulated carrier if the average power is 1060 watts?
 A. 530 watts
 B. 1060 watts
 C. 1500 watts
 D. 2120 watts
 ~~
 G5B14 (B)
-What is the output PEP from a transmitter if an oscilloscope measures 500 volts peak-to-peak across a 50-ohm resistive load connected to the transmitter output?
+What is the output PEP of 500 volts peak-to-peak across a 50-ohm load?
 A. 8.75 watts
 B. 625 watts
 C. 2500 watts
 D. 5000 watts
 ~~
-G5C01 (C)
-What causes a voltage to appear across the secondary winding of a transformer when an AC voltage source is connected across its primary winding?
-A. Capacitive coupling
-B. Displacement current coupling
-C. Mutual inductance
-D. Mutual capacitance
-~~
 G5C02 (A)
-What happens if a signal is applied to the secondary winding of a 4:1 voltage step-down transformer instead of the primary winding?
-A. The output voltage is multiplied by 4
-B. The output voltage is divided by 4
+What is the output voltage if an input signal is applied to the secondary winding of a 4:1 voltage step-down transformer instead of the primary winding?
+A. The input voltage is multiplied by 4
+B. The input voltage is divided by 4
 C. Additional resistance must be added in series with the primary to prevent overload
 D. Additional resistance must be added in parallel with the secondary to prevent overload
 ~~
-G5C03 (B)
-Which of the following components increases the total resistance of a resistor?
-A. A parallel resistor
-B. A series resistor
-C. A series capacitor
-D. A parallel capacitor
+G5C03 (A)
+What is the total resistance of a 10-, a 20-, and a 50-ohm resistor connected in parallel?
+A. 5.9 ohms
+B. 0.17 ohms
+C. 17 ohms
+D. 80 ohms
 ~~
-G5C04 (C)
-What is the total resistance of three 100-ohm resistors in parallel?
-A. 0.30 ohms
-B. 0.33 ohms
-C. 33.3 ohms
-D. 300 ohms
+G5C04 (D)
+What is the approximate total resistance of a 100- and a 200-ohm resistor in parallel?
+A. 300 ohms
+B. 150 ohms
+C. 75 ohms
+D. 67 ohms
 ~~
-G5C05 (C)
-If three equal value resistors in series produce 450 ohms, what is the value of each resistor?
-A. 1500 ohms
-B. 90 ohms
-C. 150 ohms
-D. 175 ohms
+G5C05 (B)
+Why is the primary winding wire of a voltage step-up transformer usually a larger size than that of the secondary winding?
+A. To improve the coupling between the primary and secondary
+B. To accommodate the higher current of the primary
+C. To prevent parasitic oscillations due to resistive losses in the primary
+D. To ensure that the volume of the primary winding is equal to the volume of the secondary winding
 ~~
-G5C06 (C)
-What is the RMS voltage across a 500-turn secondary winding in a transformer if the 2250-turn primary is connected to 120 VAC?
-A. 2370 volts
-B. 540 volts
-C. 26.7 volts
-D. 5.9 volts
+G5C06 (A)
+What is the voltage output of a transformer with a 500-turn primary and a 1500-turn secondary when 120 VAC is applied to the primary?
+A. 360 volts
+B. 120 volts
+C. 40 volts
+D. 25.5 volts
 ~~
 G5C07 (A)
-What is the turns ratio of a transformer used to match an audio amplifier having 600-ohm output impedance to a speaker having 4-ohm impedance?
-A. 12.2 to 1
-B. 24.4 to 1
-C. 150 to 1
-D. 300 to 1
+What transformer turns ratio matches an antenna?s 600-ohm feed point impedance to a 50-ohm coaxial cable?
+A. 3.5 to 1
+B. 12 to 1
+C. 24 to 1
+D. 144 to 1
 ~~
 G5C08 (D)
 What is the equivalent capacitance of two 5.0-nanofarad capacitors and one 750-picofarad capacitor connected in parallel?
 A. 576.9 nanofarads
-B. 1733 picofarads
-C. 3583 picofarads
+B. 1,733 picofarads
+C. 3,583 picofarads
 D. 10.750 nanofarads
 ~~
 G5C09 (C)
 What is the capacitance of three 100-microfarad capacitors connected in series?
-A. 0.30 microfarads
-B. 0.33 microfarads
+A. 0.33 microfarads
+B. 3.0 microfarads
 C. 33.3 microfarads
 D. 300 microfarads
 ~~
@@ -1749,128 +1575,93 @@ C. 3.3 millihenries
 D. 30 millihenries
 ~~
 G5C11 (C)
-What is the inductance of a 20-millihenry inductor connected in series with a 50-millihenry inductor?
-A. 0.07 millihenries
+What is the inductance of a circuit with a 20-millihenry inductor connected in series with a 50-millihenry inductor?
+A. 7 millihenries
 B. 14.3 millihenries
 C. 70 millihenries
-D. 1000 millihenries
+D. 1,000 millihenries
 ~~
 G5C12 (B)
 What is the capacitance of a 20-microfarad capacitor connected in series with a 50-microfarad capacitor?
 A. 0.07 microfarads
 B. 14.3 microfarads
 C. 70 microfarads
-D. 1000 microfarads
+D. 1,000 microfarads
 ~~
 G5C13 (C)
 Which of the following components should be added to a capacitor to increase the capacitance?
 A. An inductor in series
-B. A resistor in series
+B. An inductor in parallel
 C. A capacitor in parallel
 D. A capacitor in series
 ~~
 G5C14 (D)
 Which of the following components should be added to an inductor to increase the inductance?
 A. A capacitor in series
-B. A resistor in parallel
+B. A capacitor in parallel
 C. An inductor in parallel
 D. An inductor in series
 ~~
-G5C15 (A)
-What is the total resistance of a 10-ohm, a 20-ohm, and a 50-ohm resistor connected in parallel?
-A. 5.9 ohms
-B. 0.17 ohms
-C. 10000 ohms
-D. 80 ohms
-~~
-G5C16 (B)
-Why is the conductor of the primary winding of many voltage step-up transformers larger in diameter than the conductor of the secondary winding?
-A. To improve the coupling between the primary and secondary
-B. To accommodate the higher current of the primary
-C. To prevent parasitic oscillations due to resistive losses in the primary
-D. To ensure that the volume of the primary winding is equal to the volume of the secondary winding
-~~
-G5C17 (C)
-What is the value in nanofarads (nF) of a 22,000-picofarad (pF) capacitor?
-A. 0.22
-B. 2.2
-C. 22
-D. 220
-~~
-G5C18 (D)
-What is the value in microfarads of a 4700-nanofarad (nF) capacitor?
-A. 47
-B. 0.47
-C. 47,000
-D. 4.7
-~~
-G6A01 (C)
-What is the minimum allowable discharge voltage for maximum life of a standard 12-volt lead-acid battery?
-A. 6 volts
-B. 8.5 volts
-C. 10.5 volts
-D. 12 volts
-~~
 G6A02 (B)
-What is an advantage of the low internal resistance of nickel-cadmium batteries?
+What is an advantage of batteries with low internal resistance?
 A. Long life
 B. High discharge current
 C. High voltage
 D. Rapid recharge
 ~~
 G6A03 (B)
-What is the approximate junction threshold voltage of a germanium diode?
+What is the approximate forward threshold voltage of a germanium diode?
 A. 0.1 volt
 B. 0.3 volts
 C. 0.7 volts
 D. 1.0 volts
 ~~
 G6A04 (C)
-Which of the following is an advantage of an electrolytic capacitor?
+Which of the following is characteristic of an electrolytic capacitor?
 A. Tight tolerance
 B. Much less leakage than any other type
 C. High capacitance for a given volume
 D. Inexpensive RF capacitor
 ~~
 G6A05 (C)
-What is the approximate junction threshold voltage of a conventional silicon diode?
+What is the approximate forward threshold voltage of a silicon junction diode?
 A. 0.1 volt
 B. 0.3 volts
 C. 0.7 volts
 D. 1.0 volts
 ~~
 G6A06 (B)
-Which of the following is a reason not to use wire-wound resistors in an RF circuit?
-A. The resistor s tolerance value would not be adequate for such a circuit
-B. The resistor s inductance could make circuit performance unpredictable
+Why should wire-wound resistors not be used in RF circuits?
+A. The resistor?s tolerance value would not be adequate
+B. The resistor?s inductance could make circuit performance unpredictable
 C. The resistor could overheat
-D. The resistor s internal capacitance would detune the circuit
+D. The resistor?s internal capacitance would detune the circuit
 ~~
 G6A07 (A)
-What are the stable operating points for a bipolar transistor used as a switch in a logic circuit?
-A. Its saturation and cutoff regions
-B. Its active region (between the cutoff and saturation regions)
-C. Its peak and valley current points
-D. Its enhancement and depletion modes
+What are the operating points for a bipolar transistor used as a switch?
+A. Saturation and cutoff
+B. The active region (between cutoff and saturation)
+C. Peak and valley current points
+D. Enhancement and depletion modes
 ~~
 G6A08 (D)
-What is an advantage of using a ferrite core toroidal inductor?
-A. Large values of inductance may be obtained
-B. The magnetic properties of the core may be optimized for a specific range of frequencies
-C. Most of the magnetic field is contained in the core
-D. All these choices are correct
+Which of the following is characteristic of low voltage ceramic capacitors?
+A. Tight tolerance
+B. High stability
+C. High capacitance for given volume
+D. Comparatively low cost
 ~~
 G6A09 (B)
-Which of the following describes the construction of a MOSFET?
+Which of the following describes MOSFET construction?
 A. The gate is formed by a back-biased junction
-B. The gate is separated from the channel with a thin insulating layer
+B. The gate is separated from the channel by a thin insulating layer
 C. The source is separated from the drain by a thin insulating layer
 D. The source is formed by depositing metal on silicon
 ~~
 G6A10 (A)
-Which element of a triode vacuum tube is used to regulate the flow of electrons between cathode and plate?
+Which element of a vacuum tube regulates the flow of electrons between cathode and plate?
 A. Control grid
-B. Heater
+B. Suppressor grid
 C. Screen grid
 D. Trigger electrode
 ~~
@@ -1888,801 +1679,1053 @@ B. To increase efficiency
 C. To increase the control grid resistance
 D. To decrease plate resistance
 ~~
-G6A13 (D)
-Why is the polarity of applied voltages important for polarized capacitors?
-A. Incorrect polarity can cause the capacitor to short-circuit
-B. Reverse voltages can destroy the dielectric layer of an electrolytic capacitor
-C. The capacitor could overheat and explode
-D. All these choices are correct
-~~
-G6A14 (D)
-Which of the following is an advantage of ceramic capacitors as compared to other types of capacitors?
-A. Tight tolerance
-B. High stability
-C. High capacitance for given volume
-D. Comparatively low cost
-~~
-G6B01 (C)
-What determines the performance of a ferrite core at different frequencies?
-A. Its conductivity
-B. Its thickness
-C. The composition, or ?mix,? of materials used
-D. The ratio of outer diameter to inner diameter
-~~
 G6B02 (B)
 What is meant by the term MMIC?
-A. Multi-Megabyte Integrated Circuit
+A. Multi-Mode Integrated Circuit
 B. Monolithic Microwave Integrated Circuit
-C. Monolithic Metal-oxide Integrated Circuit
-D. Multi-Mode Integrated Circuit
+C. Metal Monolayer Integrated Circuit
+D. Mode Modulated Integrated Circuit
 ~~
 G6B03 (A)
-Which of the following is a characteristic of a liquid-crystal display (LCD)?
-A. It uses ambient light or a backlight
-B. It has a very high refresh rate
-C. It has a wide viewing angle
-D. It offers a very bright display in poor light
+Which of the following is an advantage of CMOS integrated circuits compared to TTL integrated circuits?
+A. Low power consumption
+B. High power handling capability
+C. Better suited for RF amplification
+D. Better suited for power supply regulation
 ~~
-G6B04 (D)
-What is a thermistor?
-A. A resistor that is resistant to changes in value with temperature variations
-B. A type of transistor that is controlled by temperature
-C. A fuse that is opened by a high-current-induced temperature increase
-D. A resistor that changes value with temperature variations
+G6B04 (C)
+What is a typical upper frequency limit for low SWR operation of 50-ohm BNC connectors?
+A. 50 MHz
+B. 500 MHz
+C. 4 GHz
+D. 40 GHz
 ~~
-G6B05 (A)
-What is the function of a Zener diode?
-A. To maintain a constant voltage under varying current conditions
-B. To rectify AC to DC
-C. To decrease the forward voltage drop of a PN junction
-D. To allow current to flow in one direction only
-~~
-G6B06 (B)
-What is a common use for a hot-carrier diode?
-A. As a constant voltage reference in a power supply
-B. As a VHF/UHF mixer or detector
-C. As a variable capacitance in an automatic frequency control circuit
-D. As a variable inductance in a tuned circuit
-~~
-G6B07 (C)
-What is the characteristic of a PN junction that allows it to be used as a variable capacitor?
-A. The forward-biased junction resistance
-B. The reverse-biased junction resistance
-C. The junction capacitance depends on the reverse-biased voltage
-D. The junction capacitance depends on the forward-biased voltage
-~~
-G6B08 (A)
-What is a printed circuit board?
-A. A substrate for mounting and interconnecting components
-B. A high-power resistor
-C. A type of test equipment
-D. A type of antenna
-~~
-G6B09 (D)
-What is the meaning of the term ?op-amp??
-A. Operational Amplifier
-B. High-gain audio amplifier
-C. High-impedance pre-amplifier
+G6B05 (D)
+What is an advantage of using a ferrite core toroidal inductor?
+A. Large values of inductance may be obtained
+B. The magnetic properties of the core may be optimized for a specific range of frequencies
+C. Most of the magnetic field is contained in the core
 D. All these choices are correct
+~~
+G6B06 (D)
+What kind of device is an integrated circuit operational amplifier?
+A. Digital
+B. MMIC
+C. Programmable Logic
+D. Analog
+~~
+G6B07 (A)
+Which of the following describes a type N connector?
+A. A moisture-resistant RF connector useful to 10 GHz
+B. A small bayonet connector used for data circuits
+C. A low noise figure VHF connector
+D. A nickel plated version of the PL-259
+~~
+G6B08 (D)
+How is an LED biased when emitting light?
+A. In the tunnel-effect region
+B. At the Zener voltage
+C. Reverse biased
+D. Forward biased
 ~~
 G6B10 (A)
-What is a relay?
-A. An electrically controlled switch
-B. A current-controlled resistor
-C. A large-value variable resistor
-D. A pass-through connecting two circuits
+How does a ferrite bead or core reduce common-mode RF current on the shield of a coaxial cable?
+A. By creating an impedance in the current?s path
+B. It converts common-mode current to differential mode current
+C. By creating an out-of-phase current to cancel the common-mode current
+D. Ferrites expel magnetic fields
 ~~
-G6B11 (C)
-What is the most common type of relay?
-A. Reed relay
-B. Solid-state relay
-C. Mechanical relay
-D. Latching relay
+G6B11 (B)
+What is an SMA connector?
+A. A type-S to type-M adaptor
+B. A small threaded connector suitable for signals up to several GHz
+C. A connector designed for serial multiple access signals
+D. A type of push-on connector intended for high-voltage applications
 ~~
-G6B12 (D)
-What is a common use of a relay in an amateur radio station?
-A. To remotely switch an antenna
-B. To switch a power amplifier in and out of the circuit
-C. To switch a T/R device
+G6B12 (C)
+Which of these connector types is commonly used for low frequency or dc signal connections to a transceiver?
+A. PL-259
+B. BNC
+C. RCA Phono
+D. Type N
+~~
+G7A02 (C)
+Which of the following components are used in a power supply filter network?
+A. Diodes
+B. Transformers and transducers
+C. Capacitors and inductors
 D. All these choices are correct
 ~~
-G6B13 (B)
-What is a common use for a bipolar transistor?
-A. As a voltage regulator
-B. As an RF power amplifier
-C. As a switch
+G7A03 (A)
+Which type of rectifier circuit uses two diodes and a center-tapped transformer?
+A. Full-wave
+B. Full-wave bridge
+C. Half-wave
+D. Synchronous
+~~
+G7A04 (A)
+What is characteristic of a half-wave rectifier in a power supply?
+A. Only one diode is required
+B. The ripple frequency is twice that of a full-wave rectifier
+C. More current can be drawn from the half-wave rectifier
+D. The output voltage is two times the peak input voltage
+~~
+G7A05 (B)
+What portion of the AC cycle is converted to DC by a half-wave rectifier?
+A. 90 degrees
+B. 180 degrees
+C. 270 degrees
+D. 360 degrees
+~~
+G7A06 (D)
+What portion of the AC cycle is converted to DC by a full-wave rectifier?
+A. 90 degrees
+B. 180 degrees
+C. 270 degrees
+D. 360 degrees
+~~
+G7A07 (A)
+What is the output waveform of an unfiltered full-wave rectifier connected to a resistive load?
+A. A series of DC pulses at twice the frequency of the AC input
+B. A series of DC pulses at the same frequency as the AC input
+C. A sine wave at half the frequency of the AC input
+D. A steady DC voltage
+~~
+G7A08 (C)
+Which of the following is characteristic of a switchmode power supply as compared to a linear power supply?
+A. Faster switching time makes higher output voltage possible
+B. Fewer circuit components are required
+C. High-frequency operation allows the use of smaller components
+D. Inherently more stable
+~~
+G7A09 (C)
+Which symbol in figure G7-1 represents a field effect transistor?
+A. Symbol 2
+B. Symbol 5
+C. Symbol 1
+D. Symbol 4
+~~
+G7A10 (D)
+Which symbol in figure G7-1 represents a Zener diode?
+A. Symbol 4
+B. Symbol 1
+C. Symbol 11
+D. Symbol 5
+~~
+G7A11 (B)
+Which symbol in figure G7-1 represents an NPN junction transistor?
+A. Symbol 1
+B. Symbol 2
+C. Symbol 7
+D. Symbol 11
+~~
+G7A12 (C)
+Which symbol in Figure G7-1 represents a solid core transformer?
+A. Symbol 4
+B. Symbol 7
+C. Symbol 6
+D. Symbol 1
+~~
+G7A13 (A)
+Which symbol in Figure G7-1 represents a tapped inductor?
+A. Symbol 7
+B. Symbol 11
+C. Symbol 6
+D. Symbol 1
+~~
+G7B02 (D)
+Which of these classes of amplifiers has the highest efficiency?
+A. Class A
+B. Class B
+C. Class AB
+D. Class C
+~~
+G7B03 (B)
+Which of the following describes the function of a two-input AND gate?
+A. Output is high when either or both inputs are low
+B. Output is high only when both inputs are high
+C. Output is low when either or both inputs are high
+D. Output is low only when both inputs are high
+~~
+G7B04 (A)
+In a Class A amplifier, what percentage of the time does the amplifying device conduct?
+A. 100%
+B. More than 50% but less than 100%
+C. 50%
+D. Less than 50%
+~~
+G7B05 (C)
+How many states does a 3-bit binary counter have?
+A. 3
+B. 6
+C. 8
+D. 16
+~~
+G7B06 (A)
+What is a shift register?
+A. A clocked array of circuits that passes data in steps along the array
+B. An array of operational amplifiers used for tri-state arithmetic operations
+C. A digital mixer
+D. An analog mixer
+~~
+G7B07 (D)
+Which of the following are basic components of a sine wave oscillator?
+A. An amplifier and a divider
+B. A frequency multiplier and a mixer
+C. A circulator and a filter operating in a feed-forward loop
+D. A filter and an amplifier operating in a feedback loop
+~~
+G7B08 (B)
+How is the efficiency of an RF power amplifier determined?
+A. Divide the DC input power by the DC output power
+B. Divide the RF output power by the DC input power
+C. Multiply the RF input power by the reciprocal of the RF output power
+D. Add the RF input power to the DC output power
+~~
+G7B09 (C)
+What determines the frequency of an LC oscillator?
+A. The number of stages in the counter
+B. The number of stages in the divider
+C. The inductance and capacitance in the tank circuit
+D. The time delay of the lag circuit
+~~
+G7B10 (B)
+Which of the following describes a linear amplifier?
+A. Any RF power amplifier used in conjunction with an amateur transceiver
+B. An amplifier in which the output preserves the input waveform
+C. A Class C high efficiency amplifier
+D. An amplifier used as a frequency multiplier
+~~
+G7B11 (B)
+For which of the following modes is a Class C power stage appropriate for amplifying a modulated signal?
+A. SSB
+B. FM
+C. AM
 D. All these choices are correct
 ~~
-G6B14 (A)
-Which of the following is a reason to prefer a CMOS integrated circuit (IC) to a TTL IC?
-A. Lower power consumption
-B. Higher speed
-C. Better linearity
+G7C02 (D)
+What output is produced by a balanced modulator?
+A. Frequency modulated RF
+B. Audio with equalized frequency response
+C. Audio extracted from the modulation signal
+D. Double-sideband modulated RF
+~~
+G7C03 (B)
+What is one reason to use an impedance matching transformer at a transmitter output?
+A. To minimize transmitter power output
+B. To present the desired impedance to the transmitter and feed line
+C. To reduce power supply ripple
+D. To minimize radiation resistance
+~~
+G7C04 (D)
+How is a product detector used?
+A. Used in test gear to detect spurious mixing products
+B. Used in a transmitter to perform frequency multiplication
+C. Used in an FM receiver to filter out unwanted sidebands
+D. Used in a single sideband receiver to extract the modulated signal
+~~
+G7C05 (D)
+Which of the following is characteristic of a direct digital synthesizer (DDS)?
+A. Extremely narrow tuning range
+B. Relatively high-power output
+C. Pure sine wave output
+D. Variable output frequency with the stability of a crystal oscillator
+~~
+G7C06 (A)
+Which of the following is an advantage of a digital signal processing (DSP) filter compared to an analog filter?
+A. A wide range of filter bandwidths and shapes can be created
+B. Fewer digital components are required
+C. Mixing products are greatly reduced
+D. The DSP filter is much more effective at VHF frequencies
+~~
+G7C07 (A)
+What term specifies a filter?s attenuation inside its passband?
+A. Insertion loss
+B. Return loss
+C. Q
+D. Ultimate rejection
+~~
+G7C08 (D)
+Which parameter affects receiver sensitivity?
+A. Input amplifier gain
+B. Demodulator stage bandwidth
+C. Input amplifier noise figure
 D. All these choices are correct
 ~~
-G7A01 (A)
-What is the approximate length of a half-wave dipole antenna for 14.250 MHz?
-A. 33 feet
-B. 16 feet
-C. 24 feet
-D. 48 feet
+G7C09 (B)
+What is the phase difference between the I and Q RF signals that software-defined radio (SDR) equipment uses for modulation and demodulation?
+A. Zero
+B. 90 degrees
+C. 180 degrees
+D. 45 degrees
 ~~
-G7A02 (B)
-What is the approximate length of a half-wave dipole antenna for 28.5 MHz?
+G7C10 (B)
+What is an advantage of using I-Q modulation with software-defined radios (SDRs)?
+A. The need for high resolution analog-to-digital converters is eliminated
+B. All types of modulation can be created with appropriate processing
+C. Minimum detectible signal level is reduced
+D. Automatic conversion of the signal from digital to analog
+~~
+G7C11 (D)
+Which of these functions is performed by software in a software-defined radio (SDR)?
+A. Filtering
+B. Detection
+C. Modulation
+D. All these choices are correct
+~~
+G7C12 (C)
+What is the frequency above which a low-pass filter?s output power is less than half the input power?
+A. Notch frequency
+B. Neper frequency
+C. Cutoff frequency
+D. Rolloff frequency
+~~
+G7C13 (D)
+What term specifies a filter?s maximum ability to reject signals outside its passband?
+A. Notch depth
+B. Rolloff
+C. Insertion loss
+D. Ultimate rejection
+~~
+G7C14 (A)
+The bandwidth of a band-pass filter is measured between what two frequencies?
+A. Upper and lower half-power
+B. Cutoff and rolloff
+C. Pole and zero
+D. Image and harmonic
+~~
+G8A02 (B)
+What is the name of the process that changes the phase angle of an RF signal to convey information?
+A. Phase convolution
+B. Phase modulation
+C. Phase transformation
+D. Phase inversion
+~~
+G8A03 (D)
+What is the name of the process that changes the instantaneous frequency of an RF wave to convey information?
+A. Frequency convolution
+B. Frequency transformation
+C. Frequency conversion
+D. Frequency modulation
+~~
+G8A04 (B)
+What emission is produced by a reactance modulator connected to a transmitter RF amplifier stage?
+A. Multiplex modulation
+B. Phase modulation
+C. Amplitude modulation
+D. Pulse modulation
+~~
+G8A05 (D)
+What type of modulation varies the instantaneous power level of the RF signal?
+A. Power modulation
+B. Phase modulation
+C. Frequency modulation
+D. Amplitude modulation
+~~
+G8A06 (D)
+Which of the following is characteristic of QPSK31?
+A. It is sideband sensitive
+B. Its encoding provides error correction
+C. Its bandwidth is approximately the same as BPSK31
+D. All these choices are correct
+~~
+G8A07 (A)
+Which of the following phone emissions uses the narrowest bandwidth?
+A. Single sideband
+B. Vestigial sideband
+C. Phase modulation
+D. Frequency modulation
+~~
+G8A08 (D)
+Which of the following is an effect of overmodulation?
+A. Insufficient audio
+B. Insufficient bandwidth
+C. Frequency drift
+D. Excessive bandwidth
+~~
+G8A09 (A)
+What type of modulation is used by FT8?
+A. 8-tone frequency shift keying
+B. Vestigial sideband
+C. Amplitude compressed AM
+D. 8-bit direct sequence spread spectrum
+~~
+G8A10 (C)
+What is meant by the term ?flat-topping,? when referring to an amplitude-modulated phone signal?
+A. Signal distortion caused by insufficient collector current
+B. The transmitter?s automatic level control (ALC) is properly adjusted
+C. Signal distortion caused by excessive drive or speech levels
+D. The transmitter?s carrier is properly suppressed
+~~
+G8A11 (A)
+What is the modulation envelope of an AM signal?
+A. The waveform created by connecting the peak values of the modulated signal
+B. The carrier frequency that contains the signal
+C. Spurious signals that envelop nearby frequencies
+D. The bandwidth of the modulated signal
+~~
+G8A12 (D)
+What is QPSK modulation?
+A. Modulation using quasi-parallel to serial conversion to reduce bandwidth
+B. Modulation using quadra-pole sideband keying to generate spread spectrum signals
+C. Modulation using Fast Fourier Transforms to generate frequencies at the first, second, third, and fourth harmonics of the carrier frequency to improve noise immunity
+D. Modulation in which digital data is transmitted using 0-, 90-, 180- and 270-degrees phase shift to represent pairs of bits
+~~
+G8A13 (C)
+What is a link budget?
+A. The financial costs associated with operating a radio link
+B. The sum of antenna gains minus system losses
+C. The sum of transmit power and antenna gains minus system losses as seen at the receiver
+D. The difference between transmit power and receiver sensitivity
+~~
+G8A14 (B)
+What is link margin?
+A. The opposite of fade margin
+B. The difference between received power level and minimum required signal level at the input to the receiver
+C. Transmit power minus receiver sensitivity
+D. Receiver sensitivity plus 3 dB
+~~
+G8B02 (B)
+What is the term for interference from a signal at twice the IF frequency from the desired signal?
+A. Quadrature response
+B. Image response
+C. Mixer interference
+D. Intermediate interference
+~~
+G8B03 (A)
+What is another term for the mixing of two RF signals?
+A. Heterodyning
+B. Synthesizing
+C. Frequency inversion
+D. Phase inversion
+~~
+G8B04 (D)
+What is the stage in a VHF FM transmitter that generates a harmonic of a lower frequency signal to reach the desired operating frequency?
+A. Mixer
+B. Reactance modulator
+C. Balanced converter
+D. Multiplier
+~~
+G8B05 (C)
+Which intermodulation products are closest to the original signal frequencies?
+A. Second harmonics
+B. Even-order
+C. Odd-order
+D. Intercept point
+~~
+G8B06 (D)
+What is the total bandwidth of an FM phone transmission having 5 kHz deviation and 3 kHz modulating frequency?
+A. 3 kHz
+B. 5 kHz
+C. 8 kHz
+D. 16 kHz
+~~
+G8B07 (B)
+What is the frequency deviation for a 12.21 MHz reactance modulated oscillator in a 5 kHz deviation, 146.52 MHz FM phone transmitter?
+A. 101.75 Hz
+B. 416.7 Hz
+C. 5 kHz
+D. 60 kHz
+~~
+G8B08 (B)
+Why is it important to know the duty cycle of the mode you are using when transmitting?
+A. To aid in tuning your transmitter
+B. Some modes have high duty cycles that could exceed the transmitter?s average power rating
+C. To allow time for the other station to break in during a transmission
+D. To prevent overmodulation
+~~
+G8B09 (D)
+Why is it good to match receiver bandwidth to the bandwidth of the operating mode?
+A. It is required by FCC rules
+B. It minimizes power consumption in the receiver
+C. It improves impedance matching of the antenna
+D. It results in the best signal-to-noise ratio
+~~
+G8B10 (B)
+What is the relationship between transmitted symbol rate and bandwidth?
+A. Symbol rate and bandwidth are not related
+B. Higher symbol rates require wider bandwidth
+C. Lower symbol rates require wider bandwidth
+D. Bandwidth is half the symbol rate
+~~
+G8B11 (C)
+What combination of a mixer?s Local Oscillator (LO) and RF input frequencies is found in the output?
+A. The ratio
+B. The average
+C. The sum and difference
+D. The arithmetic product
+~~
+G8B12 (A)
+What process combines two signals in a non-linear circuit to produce unwanted spurious outputs?
+A. Intermodulation
+B. Heterodyning
+C. Detection
+D. Rolloff
+~~
+G8B13 (C)
+Which of the following is an odd-order intermodulation product of frequencies F1 and F2?
+A. 5F1-3F2
+B. 3F1-F2
+C. 2F1-F2
+D. All these choices are correct
+~~
+G8C02 (A)
+Which digital mode is used as a low-power beacon for assessing HF propagation?
+A. WSPR
+B. MFSK16
+C. PSK31
+D. SSB-SC
+~~
+G8C03 (C)
+What part of a packet radio frame contains the routing and handling information?
+A. Directory
+B. Preamble
+C. Header
+D. Trailer
+~~
+G8C04 (C)
+Which of the following describes Baudot code?
+A. A 7-bit code with start, stop, and parity bits
+B. A code using error detection and correction
+C. A 5-bit code with additional start and stop bits
+D. A code using SELCAL and LISTEN
+~~
+G8C05 (A)
+In an ARQ mode, what is meant by a NAK response to a transmitted packet?
+A. Request retransmission of the packet
+B. Packet was received without error
+C. Receiving station connected and ready for transmissions
+D. Entire file received correctly
+~~
+G8C06 (B)
+What action results from a failure to exchange information due to excessive transmission attempts when using an ARQ mode?
+A. The checksum overflows
+B. The connection is dropped
+C. Packets will be routed incorrectly
+D. Encoding reverts to the default character set
+~~
+G8C07 (B)
+Which of the following narrow-band digital modes can receive signals with very low signal-to-noise ratios?
+A. MSK144
+B. FT8
+C. AMTOR
+D. MFSK32
+~~
+G8C08 (B)
+Which of the following statements is true about PSK31?
+A. Upper case letters are sent with more power
+B. Upper case letters use longer Varicode bit sequences and thus slow down transmission
+C. Error correction is used to ensure accurate message reception
+D. Higher power is needed as compared to RTTY for similar error rates
+~~
+G8C09 (B)
+Which is true of mesh network microwave nodes?
+A. Having more nodes increases signal strengths
+B. If one node fails, a packet may still reach its target station via an alternate node
+C. Links between two nodes in a network may have different frequencies and bandwidths
+D. More nodes reduce overall microwave out of band interference
+~~
+G8C10 (C)
+How does forward error correction (FEC) allow the receiver to correct data errors?
+A. By controlling transmitter output power for optimum signal strength
+B. By using the Varicode character set
+C. By transmitting redundant information with the data
+D. By using a parity bit with each character
+~~
+G8C11 (D)
+How are the two separate frequencies of a Frequency Shift Keyed (FSK) signal identified?
+A. Dot and dash
+B. On and off
+C. High and low
+D. Mark and space
+~~
+G8C12 (A)
+Which type of code is used for sending characters in a PSK31 signal?
+A. Varicode
+B. Viterbi
+C. Volumetric
+D. Binary
+~~
+G8C13 (D)
+What is indicated on a waterfall display by one or more vertical lines on either side of a data mode or RTTY signal?
+A. Long path propagation
+B. Backscatter propagation
+C. Insufficient modulation
+D. Overmodulation
+~~
+G8C14 (C)
+Which of the following describes a waterfall display?
+A. Frequency is horizontal, signal strength is vertical, time is intensity
+B. Frequency is vertical, signal strength is intensity, time is horizontal
+C. Frequency is horizontal, signal strength is intensity, time is vertical
+D. Frequency is vertical, signal strength is horizontal, time is intensity
+~~
+G8C15 (C)
+What does an FT8 signal report of +3 mean?
+A. The signal is 3 times the noise level of an equivalent SSB signal
+B. The signal is S3 (weak signals)
+C. The signal-to-noise ratio is equivalent to +3dB in a 2.5 kHz bandwidth
+D. The signal is 3 dB over S9
+~~
+G8C16 (D)
+Which of the following provide digital voice modes?
+A. WSPR, MFSK16, and EasyPAL
+B. FT8, FT4, and FST4
+C. Winlink, PACTOR II, and PACTOR III
+D. DMR, D-STAR, and SystemFusion
+~~
+G9A02 (B)
+What is the relationship between high standing wave ratio (SWR) and transmission line loss?
+A. There is no relationship between transmission line loss and SWR
+B. High SWR increases loss in a lossy transmission line
+C. High SWR makes it difficult to measure transmission line loss
+D. High SWR reduces the relative effect of transmission line loss
+~~
+G9A03 (D)
+What is the nominal characteristic impedance of ?window line? transmission line?
+A. 50 ohms
+B. 75 ohms
+C. 100 ohms
+D. 450 ohms
+~~
+G9A04 (C)
+What causes reflected power at an antenna?s feed point?
+A. Operating an antenna at its resonant frequency
+B. Using more transmitter power than the antenna can handle
+C. A difference between feed line impedance and antenna feed point impedance
+D. Feeding the antenna with unbalanced feed line
+~~
+G9A05 (B)
+How does the attenuation of coaxial cable change with increasing frequency?
+A. Attenuation is independent of frequency
+B. Attenuation increases
+C. Attenuation decreases
+D. Attenuation follows Marconi?s Law of Attenuation
+~~
+G9A06 (D)
+In what units is RF feed line loss usually expressed?
+A. Ohms per 1,000 feet
+B. Decibels per 1,000 feet
+C. Ohms per 100 feet
+D. Decibels per 100 feet
+~~
+G9A07 (D)
+What must be done to prevent standing waves on a feed line connected to an antenna?
+A. The antenna feed point must be at DC ground potential
+B. The feed line must be an odd number of electrical quarter wavelengths long
+C. The feed line must be an even number of physical half wavelengths long
+D. The antenna feed point impedance must be matched to the characteristic impedance of the feed line
+~~
+G9A08 (B)
+If the SWR on an antenna feed line is 5:1, and a matching network at the transmitter end of the feed line is adjusted to present a 1:1 SWR to the transmitter, what is the resulting SWR on the feed line?
+A. 1:1
+B. 5:1
+C. Between 1:1 and 5:1 depending on the characteristic impedance of the line
+D. Between 1:1 and 5:1 depending on the reflected power at the transmitter
+~~
+G9A09 (A)
+What standing wave ratio results from connecting a 50-ohm feed line to a 200-ohm resistive load?
+A. 4:1
+B. 1:4
+C. 2:1
+D. 1:2
+~~
+G9A10 (D)
+What standing wave ratio results from connecting a 50-ohm feed line to a 10-ohm resistive load?
+A. 2:1
+B. 1:2
+C. 1:5
+D. 5:1
+~~
+G9A11 (A)
+What is the effect of transmission line loss on SWR measured at the input to the line?
+A. Higher loss reduces SWR measured at the input to the line
+B. Higher loss increases SWR measured at the input to the line
+C. Higher loss increases the accuracy of SWR measured at the input to the line
+D. Transmission line loss does not affect the SWR measurement
+~~
+G9B02 (B)
+Which of the following is a common way to adjust the feed point impedance of an elevated quarter-wave ground-plane vertical antenna to be approximately 50 ohms?
+A. Slope the radials upward
+B. Slope the radials downward
+C. Lengthen the radials beyond one wavelength
+D. Coil the radials
+~~
+G9B03 (D)
+Which of the following best describes the radiation pattern of a quarter-wave ground-plane vertical antenna?
+A. Bi-directional in azimuth
+B. Isotropic
+C. Hemispherical
+D. Omnidirectional in azimuth
+~~
+G9B04 (A)
+What is the radiation pattern of a dipole antenna in free space in a plane containing the conductor?
+A. It is a figure-eight at right angles to the antenna
+B. It is a figure-eight off both ends of the antenna
+C. It is a circle (equal radiation in all directions)
+D. It has a pair of lobes on one side of the antenna and a single lobe on the other side
+~~
+G9B05 (C)
+How does antenna height affect the azimuthal radiation pattern of a horizontal dipole HF antenna at elevation angles higher than about 45 degrees?
+A. If the antenna is too high, the pattern becomes unpredictable
+B. Antenna height has no effect on the pattern
+C. If the antenna is less than 1/2 wavelength high, the azimuthal pattern is almost omnidirectional
+D. If the antenna is less than 1/2 wavelength high, radiation off the ends of the wire is eliminated
+~~
+G9B06 (C)
+Where should the radial wires of a ground-mounted vertical antenna system be placed?
+A. As high as possible above the ground
+B. Parallel to the antenna element
+C. On the surface or buried a few inches below the ground
+D. At the center of the antenna
+~~
+G9B07 (B)
+How does the feed point impedance of a horizontal 1/2 wave dipole antenna change as the antenna height is reduced to 1/10 wavelength above ground?
+A. It steadily increases
+B. It steadily decreases
+C. It peaks at about 1/8 wavelength above ground
+D. It is unaffected by the height above ground
+~~
+G9B08 (A)
+How does the feed point impedance of a 1/2 wave dipole change as the feed point is moved from the center toward the ends?
+A. It steadily increases
+B. It steadily decreases
+C. It peaks at about 1/8 wavelength from the end
+D. It is unaffected by the location of the feed point
+~~
+G9B09 (A)
+Which of the following is an advantage of using a horizontally polarized as compared to a vertically polarized HF antenna?
+A. Lower ground losses
+B. Lower feed point impedance
+C. Shorter radials
+D. Lower radiation resistance
+~~
+G9B10 (D)
+What is the approximate length for a 1/2 wave dipole antenna cut for 14.250 MHz?
 A. 8 feet
 B. 16 feet
 C. 24 feet
-D. 32 feet
+D. 33 feet
 ~~
-G7A03 (C)
-What is the approximate length of a quarter-wave vertical antenna for 21.125 MHz?
+G9B11 (C)
+What is the approximate length for a 1/2 wave dipole antenna cut for 3.550 MHz?
+A. 42 feet
+B. 84 feet
+C. 132 feet
+D. 263 feet
+~~
+G9B12 (A)
+What is the approximate length for a 1/4 wave monopole antenna cut for 28.5 MHz?
 A. 8 feet
 B. 11 feet
 C. 16 feet
-D. 22 feet
+D. 21 feet
 ~~
-G7A04 (B)
-What is the approximate length of a quarter-wave vertical antenna for 7.150 MHz?
-A. 11 feet
-B. 33 feet
-C. 44 feet
-D. 66 feet
+G9C02 (B)
+What is the approximate length of the driven element of a Yagi antenna?
+A. 1/4 wavelength
+B. 1/2 wavelength
+C. 3/4 wavelength
+D. 1 wavelength
 ~~
-G7A05 (D)
-What is the radiation pattern of a half-wave dipole in free space?
-A. A figure-eight at right angles to the antenna
-B. A figure-eight off the ends of the antenna
-C. A cardioid off the ends of the antenna
-D. A figure-eight broadside to the antenna
+G9C03 (A)
+How do the lengths of a three-element Yagi reflector and director compare to that of the driven element?
+A. The reflector is longer, and the director is shorter
+B. The reflector is shorter, and the director is longer
+C. They are all the same length
+D. Relative length depends on the frequency of operation
 ~~
-G7A06 (A)
-What is the radiation pattern of a quarter-wave vertical antenna?
-A. A circle at right angles to the antenna
-B. A figure-eight at right angles to the antenna
-C. A cardioid at right angles to the antenna
-D. A circle off the top of the antenna
+G9C04 (B)
+How does antenna gain in dBi compare to gain stated in dBd for the same antenna?
+A. Gain in dBi is 2.15 dB lower
+B. Gain in dBi is 2.15 dB higher
+C. Gain in dBd is 1.25 dBd lower
+D. Gain in dBd is 1.25 dBd higher
 ~~
-G7A07 (C)
-What is the feed point impedance of a half-wave dipole in free space?
-A. 12.5 ohms
-B. 50 ohms
-C. 73 ohms
-D. 300 ohms
+G9C05 (A)
+What is the primary effect of increasing boom length and adding directors to a Yagi antenna?
+A. Gain increases
+B. Beamwidth increases
+C. Front-to-back ratio decreases
+D. Resonant frequency is lower
 ~~
-G7A08 (B)
-What is the feed point impedance of a quarter-wave vertical antenna?
-A. 12.5 ohms
-B. 35 ohms
-C. 50 ohms
-D. 73 ohms
+G9C07 (C)
+What does ?front-to-back ratio? mean in reference to a Yagi antenna?
+A. The number of directors versus the number of reflectors
+B. The relative position of the driven element with respect to the reflectors and directors
+C. The power radiated in the major lobe compared to that in the opposite direction
+D. The ratio of forward gain to dipole gain
 ~~
-G7A09 (D)
-What is the primary purpose of a loading coil?
-A. To increase the SWR bandwidth of the antenna
-B. To lower the losses of a shortened antenna
-C. To lower the Q of an antenna
-D. To cancel capacitive reactance
+G9C08 (D)
+What is meant by the ?main lobe? of a directive antenna?
+A. The magnitude of the maximum vertical angle of radiation
+B. The point of maximum current in a radiating antenna element
+C. The maximum voltage standing wave point on a radiating element
+D. The direction of maximum radiated field strength from the antenna
 ~~
-G7A10 (A)
-What is the primary purpose of a capacitance hat?
-A. To increase the SWR bandwidth of the antenna
-B. To lower the losses of a shortened antenna
-C. To lower the Q of an antenna
-D. To cancel inductive reactance
+G9C09 (B)
+In free space, how does the gain of two three-element, horizontally polarized Yagi antennas spaced vertically 1/2 wavelength apart typically compare to the gain of a single three-element Yagi?
+A. Approximately 1.5 dB higher
+B. Approximately 3 dB higher
+C. Approximately 6 dB higher
+D. Approximately 9 dB higher
 ~~
-G7A11 (C)
-What is the advantage of a horizontally polarized as compared to a vertically polarized HF antenna?
-A. Lower ground losses
-B. Lower radiation resistance
-C. Lower radiation angle
+G9C10 (D)
+Which of the following can be adjusted to optimize forward gain, front-to-back ratio, or SWR bandwidth of a Yagi antenna?
+A. The physical length of the boom
+B. The number of elements on the boom
+C. The spacing of each element along the boom
 D. All these choices are correct
 ~~
-G7A12 (B)
-What is the advantage of a vertically polarized as compared to a horizontally polarized HF antenna?
-A. Lower ground losses
-B. Lower radiation angle
-C. Lower radiation resistance
+G9C11 (A)
+What is a beta or hairpin match?
+A. A shorted transmission line stub placed at the feed point of a Yagi antenna to provide impedance matching
+B. A 1/4 wavelength section of 75-ohm coax in series with the feed point of a Yagi to provide impedance matching
+C. A series capacitor selected to cancel the inductive reactance of a folded dipole antenna
+D. A section of 300-ohm twin-lead transmission line used to match a folded dipole antenna
+~~
+G9C12 (A)
+Which of the following is a characteristic of using a gamma match with a Yagi antenna?
+A. It does not require the driven element to be insulated from the boom
+B. It does not require any inductors or capacitors
+C. It is useful for matching multiband antennas
 D. All these choices are correct
 ~~
-G7A13 (D)
-What is the function of a loading coil as used with an HF mobile antenna?
-A. It increases the SWR bandwidth
-B. It lowers the losses
-C. It lowers the Q
-D. It cancels capacitive reactance
+G9D02 (D)
+What is the feed point impedance of an end-fed half-wave antenna?
+A. Very low
+B. Approximately 50 ohms
+C. Approximately 300 ohms
+D. Very high
 ~~
-G7A14 (A)
-What is the function of a capacitance hat as used with an HF mobile antenna?
-A. It increases the SWR bandwidth
-B. It lowers the losses
-C. It lowers the Q
-D. It cancels inductive reactance
+G9D03 (C)
+In which direction is the maximum radiation from a VHF/UHF ?halo? antenna?
+A. Broadside to the plane of the halo
+B. Opposite the feed point
+C. Omnidirectional in the plane of the halo
+D. On the same side as the feed point
 ~~
-G7B01 (C)
-What is the primary purpose of a balun?
-A. To match a balanced feed line to an unbalanced load
-B. To match an unbalanced feed line to a balanced load
-C. To match a balanced feed line to a balanced load
+G9D04 (A)
+What is the primary function of antenna traps?
+A. To enable multiband operation
+B. To notch spurious frequencies
+C. To provide balanced feed point impedance
+D. To prevent out-of-band operation
+~~
+G9D05 (D)
+What is an advantage of vertically stacking horizontally polarized Yagi antennas?
+A. It allows quick selection of vertical or horizontal polarization
+B. It allows simultaneous vertical and horizontal polarization
+C. It narrows the main lobe in azimuth
+D. It narrows the main lobe in elevation
+~~
+G9D06 (A)
+Which of the following is an advantage of a log-periodic antenna?
+A. Wide bandwidth
+B. Higher gain per element than a Yagi antenna
+C. Harmonic suppression
+D. Polarization diversity
+~~
+G9D07 (A)
+Which of the following describes a log-periodic antenna?
+A. Element length and spacing vary logarithmically along the boom
+B. Impedance varies periodically as a function of frequency
+C. Gain varies logarithmically as a function of frequency
+D. SWR varies periodically as a function of boom length
+~~
+G9D08 (B)
+How does a ?screwdriver? mobile antenna adjust its feed point impedance?
+A. By varying its body capacitance
+B. By varying the base loading inductance
+C. By extending and retracting the whip
+D. By deploying a capacitance hat
+~~
+G9D09 (A)
+What is the primary use of a Beverage antenna?
+A. Directional receiving for MF and low HF bands
+B. Directional transmitting for low HF bands
+C. Portable direction finding at higher HF frequencies
+D. Portable direction finding at lower HF frequencies
+~~
+G9D10 (B)
+In which direction or directions does an electrically small loop (less than 1/10 wavelength in circumference) have nulls in its radiation pattern?
+A. In the plane of the loop
+B. Broadside to the loop
+C. Broadside and in the plane of the loop
+D. Electrically small loops are omnidirectional
+~~
+G9D11 (D)
+Which of the following is a disadvantage of multiband antennas?
+A. They present low impedance on all design frequencies
+B. They must be used with an antenna tuner
+C. They must be fed with open wire line
+D. They have poor harmonic rejection
+~~
+G9D12 (A)
+What is the common name of a dipole with a single central support?
+A. Inverted V
+B. Inverted L
+C. Sloper
+D. Lazy H
+~~
+G0A02 (D)
+Which of the following is used to determine RF exposure from a transmitted signal?
+A. Its duty cycle
+B. Its frequency
+C. Its power density
 D. All these choices are correct
 ~~
-G7B02 (A)
-What is the primary purpose of an antenna tuner?
-A. To match the antenna system impedance to the transceiver's output impedance
-B. To help an antenna radiate harmonics
-C. To prevent out-of-band operation
-D. To allow a transmitter to be tuned to a frequency outside its normal range of operation
-~~
-G7B03 (B)
-What is the primary purpose of a line isolator?
-A. To isolate the feed line from the antenna
-B. To reduce common-mode current on the feed line
-C. To reduce the SWR on the feed line
-D. To increase the radiation from the feed line
-~~
-G7B04 (D)
-What is the purpose of a lightning arrestor?
-A. To protect the station equipment from lightning strikes
-B. To protect the feed line from lightning strikes
-C. To protect the antenna from lightning strikes
+G0A03 (D) [97.13(c)(1)]
+How can you determine that your station complies with FCC RF exposure regulations?
+A. By calculation based on FCC OET Bulletin 65
+B. By calculation based on computer modeling
+C. By measurement of field strength using calibrated equipment
 D. All these choices are correct
-~~
-G7B05 (A)
-What is the purpose of a safety ground?
-A. To prevent electric shock
-B. To prevent lightning damage
-C. To prevent RFI
-D. All these choices are correct
-~~
-G7B06 (C)
-What is the purpose of a station ground?
-A. To provide a low-impedance path to ground for the station equipment
-B. To provide a low-impedance path to ground for the antenna
-C. To provide a low-impedance path to ground for the feed line
-D. All these choices are correct
-~~
-G7B07 (B)
-What is the purpose of a tower ground?
-A. To provide a low-impedance path to ground for the tower
-B. To provide a low-impedance path to ground for the feed line
-C. To provide a low-impedance path to ground for the antenna
-D. All these choices are correct
-~~
-G7B08 (A)
-What is the purpose of a ground rod?
-A. To provide a low-impedance path to ground
-B. To provide a high-impedance path to ground
-C. To provide a resonant path to ground
-D. To provide a non-resonant path to ground
-~~
-G7B09 (C)
-What is the purpose of a ground wire?
-A. To provide a low-impedance path to ground
-B. To provide a high-impedance path to ground
-C. To provide a resonant path to ground
-D. To provide a non-resonant path to ground
-~~
-G7B10 (A)
-What is the purpose of a ground strap?
-A. To provide a low-impedance path to ground
-B. To provide a high-impedance path to ground
-C. To provide a resonant path to ground
-D. To provide a non-resonant path to ground
-~~
-G7B11 (B)
-What is the purpose of a ground bus?
-A. To provide a common ground point for all station equipment
-B. To provide a common ground point for all station equipment and the antenna system
-C. To provide a common ground point for all station equipment and the power source
-D. All these choices are correct
-~~
-G7B12 (D)
-What is the purpose of a ground plane?
-A. To provide a reflecting surface for an antenna
-B. To provide a low-impedance path to ground for an antenna
-C. To provide a resonant path to ground for an antenna
-D. All these choices are correct
-~~
-G7C01 (A)
-What is the main reason why a vertical antenna is shorter than a dipole antenna for the same frequency?
-A. The earth acts as a reflector, forming the missing half of the dipole
-B. The loading coil makes the antenna electrically longer
-C. The capacitance hat makes the antenna electrically longer
-D. The feed line acts as a counterpoise
-~~
-G7C02 (B)
-What is the purpose of the radials of a ground-plane antenna?
-A. To provide a reflecting surface for the antenna
-B. To provide a low-impedance path to ground for the antenna
-C. To provide a resonant path to ground for the antenna
-D. All these choices are correct
-~~
-G7C03 (C)
-What is the radiation pattern of a ground-plane antenna?
-A. A circle at right angles to the antenna
-B. A figure-eight at right angles to the antenna
-C. A cardioid at right angles to the antenna
-D. A circle off the top of the antenna
-~~
-G7C04 (D)
-What is the feed point impedance of a ground-plane antenna?
-A. 12.5 ohms
-B. 35 ohms
-C. 50 ohms
-D. 73 ohms
-~~
-G7C05 (A)
-What is the primary purpose of a gamma match?
-A. To match an unbalanced feed line to an unbalanced antenna
-B. To match a balanced feed line to an unbalanced antenna
-C. To match an unbalanced feed line to a balanced antenna
-D. To match a balanced feed line to a balanced antenna
-~~
-G7C06 (B)
-What is the primary purpose of a delta match?
-A. To match an unbalanced feed line to an unbalanced antenna
-B. To match a balanced feed line to an unbalanced antenna
-C. To match an unbalanced feed line to a balanced antenna
-D. To match a balanced feed line to a balanced antenna
-~~
-G7C07 (C)
-What is the primary purpose of a stub match?
-A. To match an unbalanced feed line to an unbalanced antenna
-B. To match a balanced feed line to an unbalanced antenna
-C. To match an unbalanced feed line to a balanced antenna
-D. To match a balanced feed line to a balanced antenna
-~~
-G7C08 (D)
-What is the primary purpose of a hairpin match?
-A. To match an unbalanced feed line to an unbalanced antenna
-B. To match a balanced feed line to an unbalanced antenna
-C. To match an unbalanced feed line to a balanced antenna
-D. To match a balanced feed line to a balanced antenna
-~~
-G7C09 (A)
-What is the primary purpose of a folded dipole antenna?
-A. To increase the feed point impedance
-B. To decrease the feed point impedance
-C. To increase the SWR bandwidth
-D. To decrease the SWR bandwidth
-~~
-G7C10 (B)
-What is the primary purpose of a multi-band trap antenna?
-A. To increase the feed point impedance
-B. To decrease the feed point impedance
-C. To increase the SWR bandwidth
-D. To decrease the SWR bandwidth
-~~
-G7C11 (C)
-What is the primary purpose of a G5RV antenna?
-A. To increase the feed point impedance
-B. To decrease the feed point impedance
-C. To increase the SWR bandwidth
-D. To decrease the SWR bandwidth
-~~
-G7C12 (D)
-What is the primary purpose of an off-center-fed dipole antenna?
-A. To increase the feed point impedance
-B. To decrease the feed point impedance
-C. To increase the SWR bandwidth
-D. To decrease the SWR bandwidth
-~~
-G8A01 (A)
-What is the velocity factor of a transmission line?
-A. The speed of the wave on the transmission line divided by the speed of light in a vacuum
-B. The speed of light in a vacuum divided by the speed of the wave on the transmission line
-C. The impedance of the line divided by the characteristic impedance of the line
-D. The characteristic impedance of the line divided by the impedance of the line
-~~
-G8A02 (B)
-What is the typical velocity factor for coaxial cable with solid polyethylene dielectric?
-A. 0.33
-B. 0.66
-C. 0.82
-D. 0.95
-~~
-G8A03 (C)
-What is the typical velocity factor for coaxial cable with foam polyethylene dielectric?
-A. 0.33
-B. 0.66
-C. 0.82
-D. 0.95
-~~
-G8A04 (D)
-What is the approximate physical length of a half-wavelength coaxial feed line at 14.1 MHz, assuming a velocity factor of 0.66?
-A. 8 feet
-B. 16 feet
-C. 23 feet
-D. 33 feet
-~~
-G8A05 (A)
-What is the approximate physical length of a quarter-wavelength coaxial feed line at 7.2 MHz, assuming a velocity factor of 0.66?
-A. 11 feet
-B. 22 feet
-C. 33 feet
-D. 44 feet
-~~
-G8A06 (B)
-What is the approximate physical length of a half-wavelength open-wire feed line at 3.8 MHz, assuming a velocity factor of 0.95?
-A. 62 feet
-B. 124 feet
-C. 186 feet
-D. 248 feet
-~~
-G8A07 (C)
-What is the approximate physical length of a quarter-wavelength open-wire feed line at 14.2 MHz, assuming a velocity factor of 0.95?
-A. 8 feet
-B. 16 feet
-C. 24 feet
-D. 32 feet
-~~
-G8A08 (D)
-What is the characteristic impedance of a transmission line?
-A. The impedance of the line at the feed point
-B. The impedance of the line at the load
-C. The impedance of the line at the center
-D. The impedance of the line if it were infinitely long
-~~
-G8A09 (A)
-What is the characteristic impedance of a typical coaxial cable used for amateur radio?
-A. 50 ohms
-B. 75 ohms
-C. 300 ohms
-D. 600 ohms
-~~
-G8A10 (B)
-What is the characteristic impedance of a typical open-wire feed line used for amateur radio?
-A. 50 ohms
-B. 75 ohms
-C. 300 ohms
-D. 600 ohms
-~~
-G8A11 (C)
-What is the characteristic impedance of a typical window-line feed line used for amateur radio?
-A. 50 ohms
-B. 75 ohms
-C. 450 ohms
-D. 600 ohms
-~~
-G8A12 (D)
-What is the main disadvantage of open-wire feed line?
-A. High loss
-B. High cost
-C. High SWR
-D. Susceptibility to interference
-~~
-G8B01 (A)
-What is the standing wave ratio (SWR)?
-A. The ratio of maximum to minimum voltage on a feed line
-B. The ratio of maximum to minimum current on a feed line
-C. The ratio of maximum to minimum impedance on a feed line
-D. All these choices are correct
-~~
-G8B02 (B)
-What is the formula for calculating SWR?
-A. SWR = Z0 / ZL
-B. SWR = ZL / Z0
-C. SWR = (1 + ??) / (1 - ??)
-D. SWR = (1 - ??) / (1 + ??)
-~~
-G8B03 (C)
-What is the significance of an SWR of 1:1?
-A. The feed line is resonant
-B. The antenna is resonant
-C. The feed line impedance matches the antenna feed point impedance
-D. All these choices are correct
-~~
-G8B04 (D)
-What is the significance of a high SWR?
-A. The feed line is resonant
-B. The antenna is resonant
-C. The feed line impedance does not match the antenna feed point impedance
-D. All these choices are correct
-~~
-G8B05 (A)
-What is the effect of a high SWR on a transmitter?
-A. The transmitter may be damaged
-B. The transmitter may not be able to produce full power
-C. The transmitter may produce spurious emissions
-D. All these choices are correct
-~~
-G8B06 (B)
-What is the effect of a high SWR on a receiver?
-A. The receiver may be damaged
-B. The receiver may not be able to receive weak signals
-C. The receiver may produce spurious emissions
-D. All these choices are correct
-~~
-G8B07 (C)
-What is the effect of a high SWR on a feed line?
-A. The feed line may be damaged
-B. The feed line may not be able to handle full power
-C. The feed line may radiate
-D. All these choices are correct
-~~
-G8B08 (D)
-What is the effect of a high SWR on an antenna?
-A. The antenna may be damaged
-B. The antenna may not be able to handle full power
-C. The antenna may radiate harmonics
-D. All these choices are correct
-~~
-G8B09 (A)
-What is the primary purpose of an SWR meter?
-A. To measure the SWR on a feed line
-B. To measure the power on a feed line
-C. To measure the impedance on a feed line
-D. All these choices are correct
-~~
-G8B10 (B)
-What is the primary purpose of a directional wattmeter?
-A. To measure the SWR on a feed line
-B. To measure the forward and reflected power on a feed line
-C. To measure the impedance on a feed line
-D. All these choices are correct
-~~
-G8B11 (C)
-What is the primary purpose of an antenna analyzer?
-A. To measure the SWR on a feed line
-B. To measure the power on a feed line
-C. To measure the impedance of an antenna system
-D. All these choices are correct
-~~
-G8B12 (D)
-What is the primary purpose of a dummy load?
-A. To test a transmitter without radiating a signal
-B. To test a receiver without radiating a signal
-C. To test a feed line without radiating a signal
-D. All these choices are correct
-~~
-G9A01 (A)
-What is the definition of a safety interlock?
-A. A device that automatically disconnects power when a cabinet is opened
-B. A device that automatically disconnects power when a fault is detected
-C. A device that automatically disconnects power when a person touches a live circuit
-D. All these choices are correct
-~~
-G9A02 (B)
-What is the purpose of a fuse?
-A. To protect a circuit from overvoltage
-B. To protect a circuit from overcurrent
-C. To protect a circuit from undervoltage
-D. To protect a circuit from undercurrent
-~~
-G9A03 (C)
-What is the purpose of a circuit breaker?
-A. To protect a circuit from overvoltage
-B. To protect a circuit from overcurrent
-C. To protect a circuit from overcurrent and provide a means of manually disconnecting power
-D. All these choices are correct
-~~
-G9A04 (D)
-What is the purpose of a ground fault circuit interrupter (GFCI)?
-A. To protect a person from electric shock
-B. To protect a circuit from overcurrent
-C. To protect a circuit from overvoltage
-D. All these choices are correct
-~~
-G9A05 (A)
-What is the purpose of a bleeder resistor?
-A. To discharge the filter capacitors in a power supply when power is turned off
-B. To provide a constant load on a power supply
-C. To provide a means of adjusting the output voltage of a power supply
-D. All these choices are correct
-~~
-G9A06 (B)
-What is the purpose of a surge protector?
-A. To protect a circuit from overvoltage
-B. To protect a circuit from transient overvoltage
-C. To protect a circuit from undervoltage
-D. To protect a circuit from undercurrent
-~~
-G9A07 (C)
-What is the purpose of a lightning arrestor?
-A. To protect a circuit from overvoltage
-B. To protect a circuit from transient overvoltage
-C. To protect a circuit from lightning-induced transient overvoltage
-D. All these choices are correct
-~~
-G9A08 (D)
-What is the purpose of a safety ground?
-A. To provide a low-impedance path to ground for a person who touches a live circuit
-B. To provide a low-impedance path to ground for a circuit that has a fault
-C. To provide a low-impedance path to ground for a circuit that is exposed to lightning
-D. All these choices are correct
-~~
-G9A09 (A)
-What is the purpose of a station ground?
-A. To provide a low-impedance path to ground for the station equipment
-B. To provide a low-impedance path to ground for the antenna system
-C. To provide a low-impedance path to ground for the power source
-D. All these choices are correct
-~~
-G9A10 (B)
-What is the purpose of a tower ground?
-A. To provide a low-impedance path to ground for the tower
-B. To provide a low-impedance path to ground for the antenna system
-C. To provide a low-impedance path to ground for the power source
-D. All these choices are correct
-~~
-G9A11 (C)
-What is the purpose of a ground rod?
-A. To provide a low-impedance path to ground
-B. To provide a high-impedance path to ground
-C. To provide a resonant path to ground
-D. To provide a non-resonant path to ground
-~~
-G9A12 (D)
-What is the purpose of a ground wire?
-A. To provide a low-impedance path to ground
-B. To provide a high-impedance path to ground
-C. To provide a resonant path to ground
-D. To provide a non-resonant path to ground
-~~
-G9B01 (A)
-What is the primary hazard from RF energy?
-A. Burns
-B. Electric shock
-C. Radiation poisoning
-D. All these choices are correct
-~~
-G9B02 (B)
-What is the primary hazard from high voltage?
-A. Burns
-B. Electric shock
-C. Radiation poisoning
-D. All these choices are correct
-~~
-G9B03 (C)
-What is the primary hazard from a charged capacitor?
-A. Burns
-B. Electric shock
-C. Both A and B
-D. Neither A nor B
-~~
-G9B04 (D)
-What is the primary hazard from a lead-acid battery?
-A. Burns from acid
-B. Explosion from hydrogen gas
-C. Electric shock
-D. All these choices are correct
-~~
-G9B05 (A)
-What is the primary hazard from a nickel-cadmium battery?
-A. Burns from electrolyte
-B. Explosion from hydrogen gas
-C. Electric shock
-D. All these choices are correct
-~~
-G9B06 (B)
-What is the primary hazard from a lithium-ion battery?
-A. Burns from electrolyte
-B. Fire or explosion
-C. Electric shock
-D. All these choices are correct
-~~
-G9B07 (C)
-What is the primary hazard from a CRT?
-A. Burns from high voltage
-B. Electric shock from high voltage
-C. Implosion
-D. All these choices are correct
-~~
-G9B08 (D)
-What is the primary hazard from a magnetron?
-A. Burns from high voltage
-B. Electric shock from high voltage
-C. Microwave radiation
-D. All these choices are correct
-~~
-G9B09 (A)
-What is the primary hazard from a klystron?
-A. Burns from high voltage
-B. Electric shock from high voltage
-C. Microwave radiation
-D. All these choices are correct
-~~
-G9B10 (B)
-What is the primary hazard from a traveling-wave tube?
-A. Burns from high voltage
-B. Electric shock from high voltage
-C. Microwave radiation
-D. All these choices are correct
-~~
-G9B11 (C)
-What is the primary hazard from a waveguide?
-A. Burns from high voltage
-B. Electric shock from high voltage
-C. Microwave radiation
-D. All these choices are correct
-~~
-G9B12 (D)
-What is the primary hazard from an antenna?
-A. Burns from RF energy
-B. Electric shock from high voltage
-C. Falling from a height
-D. All these choices are correct
-~~
-G0A01 (A)
-What is the name of the process by which a radio signal is combined with a carrier wave?
-A. Modulation
-B. Demodulation
-C. Detection
-D. Amplification
-~~
-G0A02 (B)
-What is the name of the process by which a radio signal is separated from a carrier wave?
-A. Modulation
-B. Demodulation
-C. Detection
-D. Amplification
-~~
-G0A03 (C)
-What is the name of the process by which a radio signal is converted to a lower frequency?
-A. Modulation
-B. Demodulation
-C. Heterodyning
-D. Amplification
 ~~
 G0A04 (D)
-What is the name of the process by which a radio signal is increased in strength?
-A. Modulation
-B. Demodulation
-C. Heterodyning
-D. Amplification
+What does ?time averaging? mean when evaluating RF radiation exposure?
+A. The average amount of power developed by the transmitter over a specific 24-hour period
+B. The average time it takes RF radiation to have any long-term effect on the body
+C. The total time of the exposure
+D. The total RF exposure averaged over a certain period
 ~~
-G0A05 (A)
-What is the name of the circuit that combines a radio signal with a carrier wave?
-A. Modulator
-B. Demodulator
-C. Mixer
-D. Amplifier
-~~
-G0A06 (B)
-What is the name of the circuit that separates a radio signal from a carrier wave?
-A. Modulator
-B. Demodulator
-C. Mixer
-D. Amplifier
-~~
-G0A07 (C)
-What is the name of the circuit that converts a radio signal to a lower frequency?
-A. Modulator
-B. Demodulator
-C. Mixer
-D. Amplifier
-~~
-G0A08 (D)
-What is the name of the circuit that increases the strength of a radio signal?
-A. Modulator
-B. Demodulator
-C. Mixer
-D. Amplifier
-~~
-G0A09 (A)
-What is the name of the type of modulation in which the amplitude of the carrier wave is varied?
-A. Amplitude modulation (AM)
-B. Frequency modulation (FM)
-C. Phase modulation (PM)
+G0A05 (A) [97.13(c)(2), 1.1307(b)]
+What must you do if an evaluation of your station shows that the RF energy radiated by your station exceeds permissible limits for possible human absorption?
+A. Take action to prevent human exposure to the excessive RF fields
+B. File an Environmental Impact Statement (EIS-97) with the FCC
+C. Secure written permission from your neighbors to operate above the controlled MPE limits
 D. All these choices are correct
 ~~
-G0A10 (B)
-What is the name of the type of modulation in which the frequency of the carrier wave is varied?
-A. Amplitude modulation (AM)
-B. Frequency modulation (FM)
-C. Phase modulation (PM)
+G0A06 (A) [97.13(c)(2), 1.1307(1)(b)(3)(i)]
+What must you do if your station fails to meet the FCC RF exposure exemption criteria?
+A. Perform an RF exposure evaluation in accordance with FCC OET Bulletin 65
+B. Contact the FCC for permission to transmit
+C. Perform an RF exposure evaluation in accordance with World Meteorological Organization guidelines
+D. Use an FCC-approved band-pass filter
+~~
+G0A07 (A)
+What is the effect of modulation duty cycle on RF exposure?
+A. A lower duty cycle permits greater power levels to be transmitted
+B. A higher duty cycle permits greater power levels to be transmitted
+C. Low duty cycle transmitters are exempt from RF exposure evaluation requirements
+D. High duty cycle transmitters are exempt from RF exposure requirements
+~~
+G0A08 (C) [97.13(c)(2)]
+Which of the following steps must an amateur operator take to ensure compliance with RF safety regulations?
+A. Post a copy of FCC Part 97.13 in the station
+B. Notify neighbors within a 100-foot radius of the antenna of the existence of the station and power levels
+C. Perform a routine RF exposure evaluation and prevent access to any identified high exposure areas
+D. All these choices are correct
+~~
+G0A09 (B)
+What type of instrument can be used to accurately measure an RF field strength?
+A. A receiver with digital signal processing (DSP) noise reduction
+B. A calibrated field strength meter with a calibrated antenna
+C. An SWR meter with a peak-reading function
+D. An oscilloscope with a high-stability crystal marker generator
+~~
+G0A10 (C)
+What should be done if evaluation shows that a neighbor might experience more than the allowable limit of RF exposure from the main lobe of a directional antenna?
+A. Change to a non-polarized antenna with higher gain
+B. Use an antenna with a higher front-to-back ratio
+C. Take precautions to ensure that the antenna cannot be pointed in their direction when they are present
 D. All these choices are correct
 ~~
 G0A11 (C)
-What is the name of the type of modulation in which the phase of the carrier wave is varied?
-A. Amplitude modulation (AM)
-B. Frequency modulation (FM)
-C. Phase modulation (PM)
+What precaution should be taken if you install an indoor transmitting antenna?
+A. Locate the antenna close to your operating position to minimize feed-line radiation
+B. Position the antenna along the edge of a wall to reduce parasitic radiation
+C. Make sure that MPE limits are not exceeded in occupied areas
+D. Make sure the antenna is properly shielded
+~~
+G0A12 (D) [1.1307(1)(b)(3)(i)(A)]
+What stations are subject to the FCC rules on RF exposure?
+A. All commercial stations; amateur radio stations are exempt
+B. Only stations with antennas lower than one wavelength above the ground
+C. Only stations transmitting more than 500 watts PEP
+D. All stations with a time-averaged transmission of more than one milliwatt
+~~
+G0B02 (C)
+According to the National Electrical Code, what is the minimum wire size that may be used safely for wiring with a 20-ampere circuit breaker?
+A. AWG number 20
+B. AWG number 16
+C. AWG number 12
+D. AWG number 8
+~~
+G0B03 (D)
+Which size of fuse or circuit breaker would be appropriate to use with a circuit that uses AWG number 14 wiring?
+A. 30 amperes
+B. 25 amperes
+C. 20 amperes
+D. 15 amperes
+~~
+G0B04 (B)
+Where should the station?s lightning protection ground system be located?
+A. As close to the station equipment as possible
+B. Outside the building
+C. Next to the closest power pole
+D. Parallel to the water supply line
+~~
+G0B05 (B)
+Which of the following conditions will cause a ground fault circuit interrupter (GFCI) to disconnect AC power?
+A. Current flowing from one or more of the hot wires to the neutral wire
+B. Current flowing from one or more of the hot wires directly to ground
+C. Overvoltage on the hot wires
 D. All these choices are correct
 ~~
-G0A12 (D)
-What is the name of the type of modulation in which the amplitude and phase of the carrier wave are varied?
-A. Amplitude modulation (AM)
-B. Frequency modulation (FM)
-C. Phase modulation (PM)
-D. Quadrature amplitude modulation (QAM)
+G0B06 (C)
+Which of the following is covered by the National Electrical Code?
+A. Acceptable bandwidth limits
+B. Acceptable modulation limits
+C. Electrical safety of the station
+D. RF exposure limits of the human body
+~~
+G0B07 (B)
+Which of these choices should be observed when climbing a tower using a safety harness?
+A. Always hold on to the tower with one hand
+B. Confirm that the harness is rated for the weight of the climber and that it is within its allowable service life
+C. Ensure that all heavy tools are securely fastened to the harness
+D. All these choices are correct
+~~
+G0B08 (B)
+What should be done before climbing a tower that supports electrically powered devices?
+A. Notify the electric company that a person will be working on the tower
+B. Make sure all circuits that supply power to the tower are locked out and tagged
+C. Unground the base of the tower
+D. All these choices are correct
+~~
+G0B09 (A)
+Which of the following is true of an emergency generator installation?
+A. The generator should be operated in a well-ventilated area
+B. The generator must be insulated from ground
+C. Fuel should be stored near the generator for rapid refueling in case of an emergency
+D. All these choices are correct
+~~
+G0B10 (A)
+Which of the following is a danger from lead-tin solder?
+A. Lead can contaminate food if hands are not washed carefully after handling the solder
+B. High voltages can cause lead-tin solder to disintegrate suddenly
+C. Tin in the solder can ?cold flow,? causing shorts in the circuit
+D. RF energy can convert the lead into a poisonous gas
+~~
+G0B11 (D)
+Which of the following is required for lightning protection ground rods?
+A. They must be bonded to all buried water and gas lines
+B. Bends in ground wires must be made as close as possible to a right angle
+C. Lightning grounds must be connected to all ungrounded wiring
+D. They must be bonded together with all other grounds
+~~
+G0B12 (C)
+What is the purpose of a power supply interlock?
+A. To prevent unauthorized changes to the circuit that would void the manufacturer?s warranty
+B. To shut down the unit if it becomes too hot
+C. To ensure that dangerous voltages are removed if the cabinet is opened
+D. To shut off the power supply if too much voltage is produced
+~~
+G0B13 (A)
+Where should lightning arrestors be located?
+A. Where the feed lines enter the building
+B. On the antenna, opposite the feed point
+C. In series with each ground lead
+D. At the closest power pole ground electrode
 ~~

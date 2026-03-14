@@ -69,7 +69,7 @@ if __name__ == "__main__":
     invoke('createDeck', url, deck=deck_name)
 
     # Parse text to get notes
-    fname = './extra_2024-2028.txt'
+    fname = './extra_2024-2028.txt.txt'
     payload = parse_text(fname, deck_name)
 
     if payload['params']['notes']:
