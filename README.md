@@ -16,7 +16,7 @@ Import any of these directly into Anki via **File > Import**.
 
 ## Quick Start
 
-Requires Python 3.10+, [just](https://github.com/casey/just), and [Anki](https://apps.ankiweb.net/) with the [AnkiConnect](https://ankiweb.net/shared/info/2055492159) plugin.
+Requires [mise](https://mise.jdx.dev/) and [just](https://github.com/casey/just).
 
 ```sh
 # Install Python dependencies
@@ -36,7 +36,7 @@ just
 | `just` | Update pools + build all decks |
 | `just update` | Download & parse latest pools from NCVEC |
 | `just update-class tech` | Update a single class (`tech`, `general`, or `extra`) |
-| `just build` | Build all Anki decks (requires Anki + AnkiConnect) |
+| `just build` | Build all `.apkg` decks to `decks/` |
 | `just build-class general` | Build a single class deck |
 | `just dry-run` | Show what would be downloaded |
 | `just setup` | Install Python dependencies |
